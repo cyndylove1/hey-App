@@ -1353,8 +1353,8 @@ form .address:hover{
         /* margin-right: 3%; */
     }
     .blog-img{
-        width: 240%;
-        margin-right:20%;
+        width: 250%;
+        margin-right:26%;
     }
     .blog-container h5{
         padding-top: 30px;
@@ -1368,7 +1368,7 @@ form .address:hover{
     
     .blog-content{
         flex-direction: column;
-        width: 140%;
+        width: 150%;
         /* margin-right: 25%; */
     }
     .blog-content li span{
