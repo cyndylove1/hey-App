@@ -1461,22 +1461,24 @@ form .address:hover{
 
     /* form section begins here */
     .form{
+        /* border: 3px solid red; */
         width: 100%;
         height: 500px;
-        margin-left: 4%;
+        margin-left: 10%;
         margin-top: 25%;
+        padding-left: 4%;
 
         
     }
     .form-page{
-        height: 100vh;
+        height: 110vh;
     }
     .form input{
-        width: 90%;
+        width: 95%;
     
     }
     .form-btn{
-        width: 90%;
+        width: 95%;
         
     }
     .form-title h4{
