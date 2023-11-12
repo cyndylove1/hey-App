@@ -1293,7 +1293,7 @@ form .address:hover{
     }
     .about-img{
         width: 90%;
-        margin-left: 22%;
+        margin-left: 24%;
     }
     .about-text{
         /* margin-right: 40%; */
@@ -1357,8 +1357,8 @@ form .address:hover{
         
     }
     .main-blog{
-        margin-right: 50%;
-        width: 100%;
+        /* margin-right: 50%; */
+        /* width: 100%; */
     }
     .blog-text li span{
         padding: 20px 20px;
@@ -1366,12 +1366,12 @@ form .address:hover{
     }
     .blog-content{
         flex-direction: column;
-        width: 100%;
+        /* width: 100%; */
         /* margin-right: 25%; */
     }
     .blog-img{
         width: 165%;
-        margin-right:49%;
+        margin-right:47%;
     }
     .blog-container{
         /* margin-left: 3%; */
@@ -1423,7 +1423,7 @@ form .address:hover{
         width: 80%;
     }
     .cta-text {
-        margin-left: 5%;
+        margin-left: 2%;
         width: 100%;
     }
     .cta-text h4{
