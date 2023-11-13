@@ -1733,7 +1733,7 @@ form .address:hover{
 
     /* footer section  begins here*/
     .footer-section{
-        height: 1000px;
+        height: 900px;
     }
     .footer-container{
         flex-direction: column;
@@ -2128,6 +2128,9 @@ form .address:hover{
     .img{
         width: 110%;
     }
+    .hero-section{
+        padding-top: 5%;
+    }
     /* hero section ends here */
 
 
@@ -2163,11 +2166,11 @@ form .address:hover{
     .testimonial-title h2{
         padding: 10%;
     }
-    .testimonial-text1{
-        /* margin-right: 5%; */
-
+    .testimonial-quote{
+        margin-left: 10%;
     }
     .testimonial-text1 h5{
+        padding-top: 20%;
        
     }
     .testimonial-content{
@@ -2185,7 +2188,7 @@ form .address:hover{
         /* padding-left: 6%; */
     }
     .client-img{
-        top: -25%;
+        top: -15%;
     }
     /* testimonial section ends here  */
 
