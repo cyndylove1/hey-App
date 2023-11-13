@@ -1432,10 +1432,11 @@ form .address:hover{
     }
     .cta-text {
         /* margin-right: %; */
+        /* margin-left: 2%; */
         width: 100%;
     }
     .cta-text h4{
-        margin-right: 12%;
+        
     }
     .cta-section{
         flex-direction: column;
@@ -1446,7 +1447,7 @@ form .address:hover{
 
     /* footer section begins here */
     .logo2{
-        width: 85%;
+        width: 80%;
     }
     .footer-section{
         height: 820px;
