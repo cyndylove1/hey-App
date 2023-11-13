@@ -732,10 +732,11 @@ header{
     height: 100vh;
 }
 .form{
-    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
-    box-shadow: 0 10px 20px rgba(21,19,19,.4);
+    /* -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.25); */
+    /* box-shadow: 0 10px 20px rgba(21,19,19,.4); */
     width: 45%;
     border-top: 3px solid rgb(220, 147, 250);
+    border-bottom: 3px solid rgb(220, 147, 250);
     height: 400px;
     margin-top: 10%;
     margin-left: 10%;
@@ -747,7 +748,7 @@ header{
 }
 .form-page h4{
     /* padding: 0px; */
-    padding-top: 70px;
+    padding-top: 50px;
     color: #000;
     font-weight: 700;
     font-size: 30px;
@@ -1126,11 +1127,15 @@ form .address:hover{
 
 
     /* form section ends here */
+    
+    
+   
     .form{
         width: 100%;
         height: 500px;
-        margin-left: 8%;
+        margin-left: 10%;
         margin-top: 25%;
+        border-bottom: 3px solid rgb(220, 147, 250);
         
     }
     .form-page{
@@ -1467,11 +1472,12 @@ form .address:hover{
         margin-left: 10%;
         margin-top: 25%;
         padding-left: 4%;
+        border-bottom: 3px solid rgb(220, 147, 250);;
 
         
     }
     .form-page{
-        height: 110vh;
+        height: 100vh;
     }
     .form input{
         width: 95%;
@@ -1742,8 +1748,10 @@ form .address:hover{
     .form{
         width: 100%;
         height: 500px;
-        margin-left: 8%;
+        margin-left: 15%;
         margin-top: 20%;
+        border-bottom: 3px solid rgb(220, 147, 250);
+        
         
     }
     .form-page{
@@ -1998,16 +2006,22 @@ form .address:hover{
 
 
     /* form section begins here */
+    
+    
+    
+    
     .form{
-        margin-right: 20%;
-        margin-top: 20%;
+        border-bottom: 3px solid rgb(220, 147, 250);
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 15%;
     }
     .form input{
-        width: 100%;
+        width: 90%;
         
     }
     .form-btn{
-        width: 100%;
+        width: 90%;
         
     }
     .form-page{
@@ -2179,6 +2193,24 @@ form .address:hover{
         margin-left: 50px;
     }
     /* footer section ends here  */
+
+    /* form section begins here  */
+    .form{
+        /* margin-right: 20%; */
+        /* width: 60%; */
+        /* margin-left: 10%; */
+        /* margin-top: 15%; */
+        /* padding-left: 7%; */
+    }
+    .form input{
+        /* width: 100%; */
+        margin-right: 5%;
+        
+        
+    }
+    .form-btn{
+        /* width: 100%; */
+    }
 
     /* sign up section begins here */
     .Sign-up{
