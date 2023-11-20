@@ -408,6 +408,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0 6%;
+    width: 100%;
 }
 .img3{
     height: 500px;
@@ -423,7 +424,7 @@ header{
 
 }
 .blog-container{
-    width: 90%;
+    /* width: 90%; */
     /* margin-left: 100px; */
 }
 .blog-container h5{
@@ -1020,7 +1021,7 @@ form .address:hover{
     .main-container{
         flex-direction: column;
         margin-right: 38%;
-        width: 70%;
+        width: 68%;
         
     }
     .blog-container p{
@@ -1363,7 +1364,7 @@ form .address:hover{
     /* blog section begins here */
     .main-container{
         flex-direction: column;
-        /* margin-right: 25%; */
+        margin-right: 25%;
         width: 70%;
         
     }
@@ -1372,7 +1373,7 @@ form .address:hover{
         /* margin-right: 3%; */
     }
     .blog-img{
-        width: 252%;
+        width: 250%;
         margin-right:26%;
     }
     .blog-container h5{
