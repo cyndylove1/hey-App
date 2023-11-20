@@ -1372,7 +1372,7 @@ form .address:hover{
         /* margin-right: 3%; */
     }
     .blog-img{
-        width: 250%;
+        width: 252%;
         margin-right:26%;
     }
     .blog-container h5{
@@ -1387,7 +1387,7 @@ form .address:hover{
     
     .blog-content{
         flex-direction: column;
-        width: 150%;
+        width: 160%;
         /* margin-right: 25%; */
     }
     .blog-content li span{
