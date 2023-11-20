@@ -1388,7 +1388,7 @@ form .address:hover{
     
     .blog-content{
         flex-direction: column;
-        width: 160%;
+        width: 155%;
         /* margin-right: 25%; */
     }
     .blog-content li span{
