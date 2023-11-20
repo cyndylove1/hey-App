@@ -17,22 +17,22 @@ const userSchema = new Schema({
     unique: true,
     required:[true, 'please add a text value']
   },
-  // mobile: {
-  //   type: Number,
-  //   required:[true, 'please add a text value']
-  // },
-  // identificationType: {
-  //   type: String,
-  //   required:[true, 'please add a text value']
-  // },
-  // identificationNumber: {
-  //   type: String,
-  //   required:[true, 'please add a text value']
-  // },
-  // address: {
-  //   type: String,
-  //   required:[true, 'please add a text value']
-  // },
+  mobile: {
+    type: Number,
+    required:[true, 'please add a text value']
+  },
+  identificationType: {
+    type: String,
+    required:[true, 'please add a text value']
+  },
+  identificationNumber: {
+    type: String,
+    required:[true, 'please add a text value']
+  },
+  address: {
+    type: String,
+    required:[true, 'please add a text value']
+  },
   password: {
     type: String,
     required:[true, 'please add a text value']

@@ -6,11 +6,14 @@ import '../globals.css'
 import {FaGoogleWallet} from 'react-icons/fa6'
 import {FaRegEye} from 'react-icons/fa6'
 import { useState } from 'react'
-import Navbar from '../Navbar/page'
+// import Navbar from '../Navbar/page'
 // import Navbar from '../Navbar/page'
 
-
+async function getData (){
+    await new Promise (resolve => setTimeout(resolve , 3000)) 
+}
  export default function Form(){
+    
     const [type,setType] = useState("password")
     const [icon,setIcon] = useState(FaRegEyeSlash)
 
@@ -23,6 +26,8 @@ import Navbar from '../Navbar/page'
             setType('password')
         }
 
+      
+
         
     }
 
@@ -30,7 +35,7 @@ import Navbar from '../Navbar/page'
         
     <div className="form-section">
         <div> 
-            <Navbar/>
+            {/* <Navbar/> */}
         {/* <Navbar/> */}
                 {/* <div className='form-heading'>
                     <h2><span className='fa'><FaGoogleWallet/></span>HEYWALLET</h2>

@@ -48,7 +48,7 @@ import { useState } from 'react'
     }
     return(
         <div>
-            <Navbar/>
+            {/* <Navbar/> */}
             <div className="Sign-up">
                 <div className="title">
                     <div className="Sign-title">

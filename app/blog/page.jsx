@@ -10,7 +10,7 @@ import '../styles.css'
                 <div className="main-blog">
                     <div className="main-container">
                         <div className="blog-container">
-                            <h5>WHY CHOOSE US</h5>
+                            <h5>WHY CHOOSE US?</h5>
                             <h2>Enterprise Blockchain Services  to Build a Better Future.</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur  adipiscing elit,  sed do eiusmod  tempor.</p>
 

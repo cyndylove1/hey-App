@@ -1,3 +1,4 @@
+
 body{
     padding: 0;
     margin: 0;
@@ -422,6 +423,7 @@ header{
 
 }
 .blog-container{
+    width: 90%;
     /* margin-left: 100px; */
 }
 .blog-container h5{
@@ -662,6 +664,7 @@ header{
     margin-left: 70px;
 }
 .quick-links h5{
+    font-weight: 700;
     /* margin-left: 70px; */
     padding-top: 30px;
     
@@ -1016,7 +1019,8 @@ form .address:hover{
     /* blog section begins here */
     .main-container{
         flex-direction: column;
-        margin-right: 35%;
+        margin-right: 38%;
+        width: 70%;
         
     }
     .blog-container p{
@@ -1044,8 +1048,8 @@ form .address:hover{
         /* margin-right: 5%; */
     }
     .blog-img{
-        width: 250%;
-        /* margin-left:5%; */
+        width: 240%;
+        margin-right:15%;
     }
     
     /* blog section ends here */
@@ -1065,21 +1069,13 @@ form .address:hover{
         width: 100%;
         
     }
+    .socials h2:hover{
+        transform: none;
+    }
     /* team section ends here */
 
     /* testimonial section ends here */
-    .testimonial{
-        
-
-    }
-    .testimonial-container{
-        /* padding-top: 5%; */
-        /* display: grid; */
-
-        /* flex-direction: column; */
-        /* grid-template-columns: repeat(1,1fr); */
-        /* margin: 0 15%; */
-    }
+   
     /* testimonial section ends here */
 
     /* cta section */ 
@@ -1129,6 +1125,10 @@ form .address:hover{
         margin-left: 20px;
     
     }
+    .social-footer h5:hover{
+        transform: none;
+    }
+    
     /* footer section ends here */
 
 
@@ -1413,6 +1413,9 @@ form .address:hover{
     .img4{
         width: 35%;
     }
+    .socials h2:hover{
+        transform: none;
+    }
     /* team section ends here */
 
     /* testimonial section begins here */
@@ -1468,6 +1471,9 @@ form .address:hover{
     .location{
         margin-left: 25px;
     
+    }
+    .social-footer h5:hover{
+        transform: none;
     }
     /* footer section ends here */
 
@@ -1663,6 +1669,7 @@ form .address:hover{
     .main-container{
         flex-direction: column;
         margin-right: 20%;
+        width: 70%;
         
     }
     .blog-text li span{
@@ -1670,8 +1677,8 @@ form .address:hover{
         margin-right: 5%;
     }
     .blog-img{
-        width: 200%;
-        margin-right:30%;
+        width: 210%;
+        margin-right:16%;
     }
     .blog-container h5{
         padding-top: 30px;
@@ -1688,7 +1695,7 @@ form .address:hover{
     
     .blog-content{
         flex-direction: column;
-        width: 130%;
+        width: 170%;
         /* margin-right: 25%; */
     }
     /* blog section ends here */
@@ -1705,7 +1712,7 @@ form .address:hover{
     }
     .img4{
         height: 130px;
-        width: 30%;
+        width: 35%;
         border-radius: 50%;
         border: 3px solid var(--white-color);
     }
@@ -1715,8 +1722,12 @@ form .address:hover{
     /* cta section  begins here*/
     .cta-btn{
         width: 30%;
-        margin-left: 5%;
+        margin-left: 2%;
        
+    }
+    .cta-img{
+        margin-right: 3%;
+        margin-bottom: 2%;
     }
     .cta{
         height: 450px;
@@ -1753,6 +1764,9 @@ form .address:hover{
     .location{
         margin-left: 25px;
     
+    }
+    .social-footer h5:hover{
+        transform: none;
     }
     /* footer section ends here */
 
@@ -1937,19 +1951,23 @@ form .address:hover{
     /* blog section  here begins*/
     .main-container{
         flex-direction: column;
+        width: 70%;
         margin-right: 20%;
         
     }
     .blog-container h5{
         padding-top: 30px;
     }
+    .blog-content{
+        width: 150%;
+    }
     .blog-text li span{
         padding: 20px 50px;
-        margin-right: 5%;
+        /* margin-right: 5%; */
     }
     .blog-img{
-        width: 130%;
-        margin-right: 15%;
+        width: 150%;
+        margin-right: 5%;
         
     }
     /* blog section ends here */
@@ -1971,6 +1989,33 @@ form .address:hover{
         border: 3px solid var(--white-color);
     }
     /* team section ends here */
+    .testimonial-title h2{
+        padding: 10%;
+    }
+    .testimonial-quote{
+        margin-left: 10%;
+    }
+    .testimonial-text1 h5{
+        padding-top: 20%;
+       
+    }
+    .testimonial-content{
+        margin-right: 35%;
+    }
+    .testimonial-info{
+        width: 150%; 
+        padding-right: 10%;
+    }
+    .testimonial-text p{
+        text-align:justify;
+        
+    }
+    .paragraph{
+        /* padding-left: 6%; */
+    }
+    .client-img{
+        top: -10%;
+    }
 
     /* services section */
     .img2{
@@ -1985,12 +2030,15 @@ form .address:hover{
     /* cta section begins here */
     .cta-btn{
         width: 50%;
-        /* margin-right: %; */
+        margin-left: 7%;
        
         
     }
     .cta-text{
         width: 80%;
+    }
+    .cta-img{
+        width: 120%;
     }
     /* cta section ends here */
     
@@ -2019,6 +2067,9 @@ form .address:hover{
     .location{
         margin-left: 25px;
     
+    }
+    .social-footer h5:hover{
+        transform: none;
     }
     /* footer section ends here */
 
@@ -2108,7 +2159,7 @@ form .address:hover{
  @media screen and (min-width: 1001px) and ( max-width: 1029.33px){
     .navbar {
         padding-top: 30px;
-        margin-right: 7%;
+        margin-right: 10%;
         
         
     }
@@ -2123,10 +2174,11 @@ form .address:hover{
         margin-left: 40px;
     }
     .image{
-        margin-right: 5%;
+        /* margin-right: 5%; */
+        width: 40%;
     }
     .img{
-        width: 110%;
+        width: 100%;
     }
     .hero-section{
         padding-top: 5%;
@@ -2136,21 +2188,44 @@ form .address:hover{
 
     /* about section begins here  */
     .about-container{
-        width: 90%;
+        width: 96%;
+        margin: 0 3%;
+    }
+    .about-img{
+        width: 50%;
+    }
+    .img5{
+        width: 120%;
     }
     .about-section2{
-        /* margin-right: 3%; */
+        /* margin-left: 10%; */
+        /* width: 80%; */
+    }
+    .about-section{
+        margin-left: 5%;
+        /* width: 90%; */
     }
     /* about section ends here  */
 
 
     /* blog section begins here  */
+    .main-container{
+        padding: 0 3%;
+    }
     
     .blog-container h5{
         padding-top: 30px;
     }
+    .blog-container{
+        width: 130%;
+    }
     .blog-img{
         width: 150%;
+        margin-right: 12%;
+    }
+    .img3{
+        width: 130%;
+       
     }
     /* blog section ends here  */
 
@@ -2158,6 +2233,15 @@ form .address:hover{
     /* team section begins here  */
     .team-text h4{
         font-size: 20px;
+    }
+    .img4{
+        width: 43%;
+    }
+    .team-text{
+        width: 100%;
+    }
+    .team-info{
+        margin: 0 3%;
     }
     /* team section ends here  */
 
@@ -2199,6 +2283,11 @@ form .address:hover{
     }
     .cta-btn{
         margin-right: 10%;
+        /* width: 100%; */
+    }
+    .cta-btn2{
+        /* margin-right: 10%; */
+        width: 110%;
     }
     /* cta section ends here  */
 

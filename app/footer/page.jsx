@@ -58,7 +58,7 @@ export default function Footer (){
                    
 
                 </div>
-                <p className='copy'>2022-2023  HeyWallet</p>
+                <p className='copy'> &copy 2022-2023 HeyWallet</p>
             </div>
         </div>
     )
