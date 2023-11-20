@@ -11,8 +11,17 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import {Navigation, Autoplay } from 'swiper/modules';
+import ScrollReveal from 'scrollreveal'
 
 export default function Testimonial(){
+    const sr = ScrollReveal ({
+        distance: '60px',
+        duration: 2000,
+        reset: true
+    
+     })
+     sr.reveal('.testimonial-title h2',{delay:350, origin:'bottom'})
+     
     return(
         <div>
              <div className="testimonial-title">

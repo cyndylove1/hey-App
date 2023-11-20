@@ -9,11 +9,21 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
+// import ScrollReveal from 'scrollreveal'
 
 
 
 
 export default function Hero (){
+    // const sr = ScrollReveal ({
+    //     distance: '60px',
+    //     duration: 2000,
+    //     reset: true
+    
+    //  })
+    //  sr.reveal('.image',{delay:350, origin:'top'})
+    //  sr.reveal('.hero-text', {delay:350, origin:'right'})
+    
     
 
     return(

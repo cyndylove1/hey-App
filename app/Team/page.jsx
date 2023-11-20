@@ -10,7 +10,19 @@ import {FaFacebookF} from "react-icons/fa6";
 import {FaTwitter} from "react-icons/fa6";
 import {FaLinkedinIn} from "react-icons/fa6";
 import {FaInstagram} from "react-icons/fa6"
+import ScrollReveal from 'scrollreveal';
+
+
 export default function Team () {
+    const sr = ScrollReveal ({
+        distance: '60px',
+        duration: 2000,
+        reset: true
+    
+     })
+     sr.reveal('.team-container h2,.team-text',{delay:350, origin:'bottom'})
+     
+    
     return(
         <div>
             

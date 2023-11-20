@@ -9,10 +9,20 @@ import {TbAssembly} from "react-icons/tb"
 import {TbAsterisk} from "react-icons/tb"
 import {TbAward} from "react-icons/tb"
 import {TbBadgeFilled} from "react-icons/tb"
+import ScrollReveal from 'scrollreveal';
 
 
 
  export default function About () {
+    const sr = ScrollReveal ({
+        distance: '60px',
+        duration: 2000,
+        reset: true
+    
+     })
+     sr.reveal('.about-us h2,.about-us h5,.img5,.about-section2,.about-section',{delay:350, origin:'bottom'})
+     
+    
     return(
         <div>
             <div className="about">

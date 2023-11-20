@@ -9,7 +9,7 @@ body{
 header{
      background: rgb(107,6,156);
     background: linear-gradient(90deg, rgba(107,6,156,1) 0%, rgba(11,2,17,1) 65%);
-    height: 60px;
+    height: 70px;
     position: fixed;
     left: 0;
     right: 0;
@@ -54,14 +54,15 @@ header{
 .custom-shape-divider-bottom-1696728674 .shape-fill {
     fill: #FFFFFF;
 }
-.logo h2{
+/* .logo h2{
     padding-left: 3px;
     font-weight: 700;
-}
+} */
 
 .fa{
     font-size: 40px;
     margin-right: 6px;
+    
     color :  rgb(220, 147, 250)
 }
 
@@ -69,12 +70,15 @@ header{
  .navbar {
     display: flex;
     justify-content: space-between;
+    /* padding-top: 40px; */
+    
+
     
 }
 .navbar ul {
     display: flex;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 40px;
     list-style: none;
     margin-left: 8%;
    
@@ -105,8 +109,10 @@ header{
 }
 .logo h2{
     font-size: 20px;
+    font-weight: 700;
     color: var(--white-color);
     margin-left: 20px;
+    margin-top: 26px;
     
 }
 .hero-content{

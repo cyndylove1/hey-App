@@ -5,7 +5,19 @@ import Image from "next/image"
 import icon1 from "@/public/images/s1.png"
 import icon2 from "@/public/images/s2.png"
 import icon3 from "@/public/images/s3.png"
+import ScrollReveal from 'scrollreveal'
+
+
 export default function Services () {
+    const sr = ScrollReveal ({
+        distance: '60px',
+        duration: 2000,
+        reset: true
+    
+     })
+     sr.reveal('.services-container,.services-content',{delay:350, origin:'bottom'})
+     
+    
     return(
         <div>
             <div className="services">
