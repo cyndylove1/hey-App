@@ -408,7 +408,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0 6%;
-    width: 100%;
+    /* width: 100%; */
 }
 .img3{
     height: 500px;
@@ -424,7 +424,7 @@ header{
 
 }
 .blog-container{
-    /* width: 90%; */
+    width: 90%;
     /* margin-left: 100px; */
 }
 .blog-container h5{
