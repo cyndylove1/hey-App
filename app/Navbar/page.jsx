@@ -24,9 +24,9 @@ export default function Navbar() {
     
 
     return(
-        <header className>
+        <header>
             
-             <div className='logo'>
+             <div className="logo">
                  <h2><span className='fa'><FaGoogleWallet/></span>HEYWALLET</h2>
 
             </div>

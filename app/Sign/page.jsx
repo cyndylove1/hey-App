@@ -19,7 +19,7 @@ import { useState } from 'react'
     const handleSubmit  = async (e) =>{
         e.preventDefault()
         try {
-           const res = await fetch('api/register',{
+           const res = await fetch('/api',{
                 method: 'POST',
                 headers: {
                     "Content-Type": "application/json"

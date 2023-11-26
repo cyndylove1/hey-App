@@ -6,18 +6,18 @@ import {FaFacebookF} from "react-icons/fa6";
 import {FaTwitter} from "react-icons/fa6";
 import {FaLinkedinIn} from "react-icons/fa6";
 import {FaInstagram} from "react-icons/fa6"
-import ScrollReveal from 'scrollreveal';
+// import ScrollReveal from 'scrollreveal';
 
 
 export default function Footer (){
 
-    const sr = ScrollReveal ({
-        distance: '60px',
-        duration: 2000,
-        reset: true
+    // const sr = ScrollReveal ({
+    //     distance: '60px',
+    //     duration: 2000,
+    //     reset: true
     
-     })
-     sr.reveal('.footer-container',{delay:350, origin:'bottom'})
+    //  })
+    //  sr.reveal('.footer-container',{delay:350, origin:'bottom'})
     return(
         <div>
             <div className='footer-section'>

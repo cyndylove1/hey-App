@@ -1,5 +1,5 @@
 {
-  "name": "finexso1",
+  "name": "heyapplication",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,10 +10,14 @@
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
     "bootstrap": "^5.3.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
     "mongoose": "^8.0.0",
     "next": "13.5.4",
     "next-auth": "^4.24.4",
+    "nodemon": "^3.0.1",
     "prisma": "^5.5.2",
     "react": "^18",
     "react-dom": "^18",
