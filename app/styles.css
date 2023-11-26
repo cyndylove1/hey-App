@@ -76,6 +76,7 @@ header{
     
 }
 .navbar ul {
+    /* border: 3px solid red; */
     display: flex;
     align-items: center;
     padding-top: 40px;
@@ -2032,7 +2033,7 @@ form .address:hover{
 
  @media screen and (min-width: 1001px) and ( max-width: 1029.33px){
     .navbar {
-        padding-top: 30px;
+        padding-top: 20px;
         margin-right: 10%;
         
         
@@ -2041,11 +2042,14 @@ form .address:hover{
         display: none;
     }
     .navbar ul{
-        padding: 10px 0;
+        /* border: 2px solid blue; */
+        padding: 40px 0;
     }
     /* hero section begins here  */
     .logo h2{
+        margin-top: 0px;
         margin-left: 40px;
+        
     }
     .image{
         /* margin-right: 5%; */
@@ -2193,12 +2197,12 @@ form .address:hover{
         /* margin-right: 20%; */
         /* width: 60%; */
         /* margin-left: 10%; */
-        /* margin-top: 15%; */
+        margin-top: 13%;
         /* padding-left: 7%; */
     }
     .form input{
         /* width: 100%; */
-        margin-right: 5%;
+        margin-right: 2%;
         
         
     }
@@ -2208,45 +2212,93 @@ form .address:hover{
 
     /* sign up section begins here */
     .Sign-up{
+        background-color: whitesmoke;
         height: 180vh;
+        padding-top: 8%;
+        
     }
-
+    .member{
+        padding: 20px 80px;
+    }
+    .member a{
+        text-decoration: none;
+    }
     .Sign{
-        flex-direction: row;
-    }
-    .member h6{
-        padding: 20px 0;
-        width: 100%;
-        font-size: 15px;
-        text-align: center;
-        margin-left: 5%;
-    }
-    form .sign-input {
-        margin-left: 5%;
-        width: 90%;
-        margin-bottom: 0;
-
-    }
-    form .sign-label{
-        width: 100%;
-    }
-     form .address{
-        margin-left: 5%;
-        margin-bottom: 0;
-    }
-    .select{
-        width: 90%;
-        margin-left: 5%;
-        margin-bottom: 0;
-    }
-    .register{
-        margin-top: 10%;
+        
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+       
+        
+        
     }
     .Sign-title h4{
-        padding: 30px 50px;
-        font-size: 30px;
+        padding: 20px 100px;
     }
-    /* sign up section ends here */
+    .title{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    form .sign-input {
+        outline: none;
+        border: 1px solid #000;
+        width: 38%;
+        padding: 15px 20px;
+        margin-bottom: 30px;   
+        transition: 0.5s;
+    }
+    form .sign-input:hover{
+        border: 1px solid rgb(220, 147, 250);
+    }
+    form .sign-label{
+        margin-left: 30px;
+    }
+    form .address{
+        width: 85%;
+        outline: none;
+        border: 1px solid #000;
+        padding: 15px 20px;
+        margin-bottom: 30px;
+        transition: 0.5s;
+    }
+    form .address:hover{
+        border: 1px solid rgb(220, 147, 250);
+    }
+    .select{
+        width: 30%;
+        outline: none;
+        border: 1px solid #000;
+        padding: 10px 20px;
+        margin-bottom: 30px;
+        transition: 0.5s;
+    }
+    .select:hover{
+        border: 1px solid rgb(220, 147, 250);
+    }
+    .register{
+        margin-left: 70%;
+        padding: 10px 20px; 
+        border-radius: 5px;
+        background-color: rgb(220, 147, 250);
+        color: var(--white-color);
+        font-weight: 700;
+        border: none;
+        transition: 0.5s;
+    }
+    .register:hover{
+        background-color: rgb(231, 190, 249);
+        color: #000;
+    }
+    
+    
+    /* .Sign-page{
+        margin-top: 10%;
+        border: 3px solid red;
+
+    } */
+
+    
     
     
     
