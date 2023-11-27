@@ -1224,7 +1224,7 @@ form .address:hover{
     
     /* services section begins here*/
     .services-container{
-        padding-left: 10px;
+        /* padding-left: 7px; */
     }
     .services{
         height: 1000px;
@@ -1233,7 +1233,7 @@ form .address:hover{
     }
     .services-content{
         flex-direction: column;
-        margin-right: 5%;
+        /* margin-right: 5%; */
     
     }
     /* services section ends here */
@@ -1532,14 +1532,14 @@ form .address:hover{
 
     /* services section begins here */
     .services-container{
-        padding-left: 10px;
+        /* padding-left: 10px; */
     }
     .services{
         height: 1000px;
     }
     .services-content{
         flex-direction: column;
-        margin-right: 5%;
+        /* margin-right: 5%; */
     
     }
     /* services section ends here */
