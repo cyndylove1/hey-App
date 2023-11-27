@@ -1814,14 +1814,14 @@ form .address:hover{
 
     /* .services section begins here */  
     .services-container{
-        padding-left: 10px;
+        /* padding-left: 10px; */
     }
     .services{
         height: 1000px;
     }
     .services-content{
         flex-direction: column;
-        margin-right: 5%;
+        /* margin-right: 5%; */
     
     }
     /* services section ends here */
@@ -1878,6 +1878,15 @@ form .address:hover{
         padding-top: 20%;
        
     }
+    .testimonial-text{
+        padding-top: 20%;
+       
+    }
+    .testimonial-quote{
+        padding-top: 10%;
+
+    }
+
     .testimonial-content{
         margin-right: 35%;
     }
@@ -2139,6 +2148,7 @@ form .address:hover{
         padding: 10%;
     }
     .testimonial-quote{
+        padding-top: 7%;
         margin-left: 10%;
     }
     .testimonial-text1 h5{
