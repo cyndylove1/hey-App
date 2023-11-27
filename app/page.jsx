@@ -7,7 +7,7 @@ import Blog from './blog/page'
 import Team from './Team/page'
 import Testimonial from './Testimonial/page'
 import Cta from './Cta/page'
-import Footer from './footer/page' 
+// import Footer from './footer/page' 
 import Mobile from './Mobile/page'
 // import Form from './form/page'
 
@@ -26,7 +26,7 @@ export default function Home() {
       <Team/>
       <Testimonial/>
       <Cta/>
-      <Footer/>
+      {/* <Footer/> */}
        
     </main>
   )

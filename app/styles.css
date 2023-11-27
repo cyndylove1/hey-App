@@ -20,6 +20,7 @@ header{
     transition: 0.5s;
     z-index: 1000;
     transition: 0.5s ease;
+    padding-top: 20px;
     
 
 
@@ -79,7 +80,7 @@ header{
     /* border: 3px solid red; */
     display: flex;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 20px;
     list-style: none;
     margin-left: 8%;
    
@@ -101,19 +102,22 @@ header{
     background-color: rgb(220, 147, 250);
     padding: 7px 20px;
     transition: 0.4s;
-    margin: 10px 0;
+    /* margin: 10px 0; */
 
 }
 .btn:hover{
     background-color: rgb(231, 190, 249);
     color: #000;
 }
+.logo{
+    /* margin-top: 5%; */
+}
 .logo h2{
     font-size: 20px;
     font-weight: 700;
     color: var(--white-color);
     margin-left: 20px;
-    margin-top: 26px;
+    /* margin-top: 10px; */
     
 }
 .hero-content{
@@ -2043,7 +2047,7 @@ form .address:hover{
     }
     .navbar ul{
         /* border: 2px solid blue; */
-        padding: 40px 0;
+        padding: 5px 0;
     }
     /* hero section begins here  */
     .logo h2{
@@ -2065,6 +2069,9 @@ form .address:hover{
 
 
     /* about section begins here  */
+    .about{
+        height: 800px;
+    }
     .about-container{
         width: 96%;
         margin: 0 3%;
@@ -2087,6 +2094,9 @@ form .address:hover{
 
 
     /* blog section begins here  */
+    .blog{
+        height: 600px;
+    }
     .main-container{
         padding: 0 3%;
     }
@@ -2212,92 +2222,28 @@ form .address:hover{
 
     /* sign up section begins here */
     .Sign-up{
-        background-color: whitesmoke;
-        height: 180vh;
-        padding-top: 8%;
+        height: 120vh;
         
     }
-    .member{
-        padding: 20px 80px;
-    }
-    .member a{
-        text-decoration: none;
-    }
-    .Sign{
-        
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-       
-        
-        
-    }
-    .Sign-title h4{
-        padding: 20px 100px;
-    }
-    .title{
-        display: flex;
-        justify-content: space-between;
-    }
+    
     
     form .sign-input {
-        outline: none;
-        border: 1px solid #000;
         width: 38%;
-        padding: 15px 20px;
-        margin-bottom: 30px;   
-        transition: 0.5s;
+        
     }
-    form .sign-input:hover{
-        border: 1px solid rgb(220, 147, 250);
-    }
-    form .sign-label{
-        margin-left: 30px;
-    }
+    
     form .address{
         width: 85%;
-        outline: none;
-        border: 1px solid #000;
-        padding: 15px 20px;
-        margin-bottom: 30px;
-        transition: 0.5s;
+        
     }
-    form .address:hover{
-        border: 1px solid rgb(220, 147, 250);
-    }
+    
     .select{
         width: 30%;
-        outline: none;
-        border: 1px solid #000;
-        padding: 10px 20px;
-        margin-bottom: 30px;
-        transition: 0.5s;
-    }
-    .select:hover{
-        border: 1px solid rgb(220, 147, 250);
-    }
-    .register{
-        margin-left: 70%;
-        padding: 10px 20px; 
-        border-radius: 5px;
-        background-color: rgb(220, 147, 250);
-        color: var(--white-color);
-        font-weight: 700;
-        border: none;
-        transition: 0.5s;
-    }
-    .register:hover{
-        background-color: rgb(231, 190, 249);
-        color: #000;
+        
     }
     
     
-    /* .Sign-page{
-        margin-top: 10%;
-        border: 3px solid red;
-
-    } */
-
+    
     
     
     
