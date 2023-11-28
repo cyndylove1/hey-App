@@ -6,6 +6,7 @@ import { useState } from 'react'
 // import Link from 'next/link'
 
  export default function Sign (){
+    
     const [firstName , setFirstName] = useState("")
     const [lastName , setLastName] = useState("")
     const [email , setEmail] = useState("")
@@ -64,33 +65,33 @@ import { useState } from 'react'
                
                 <div className="Sign-page">
                     <form action="" className="Sign" onSubmit={handleSubmit}>
-                        <label htmlFor="first" className="sign-label" >FirstName</label> 
-                        <input type="text" className="sign-input" autoComplete='off' onChange={(e) => setFirstName (e.target.value)} value={firstName} required/>
-                        <label htmlFor="last" className="sign-label">LastName</label> 
-                        <input type="text" className="sign-input" autoComplete='off' onChange={(e) => setLastName (e.target.value)} value={lastName} required/> <br />
-                        <label htmlFor="email" className="sign-label">Email</label> 
-                        <input type="text" className="sign-input" autoComplete='off' onChange={(e) => setEmail (e.target.value)} value={email} required/>
-                        <label htmlFor="mobile" className="sign-label">Mobile</label>
-                        <input type="number" className="sign-input" autoComplete='off' onChange={(e) => setMobile (e.target.value)}value={mobile} required/><br />
-
-                        <label htmlFor="identification Type" className="sign-label">Identification Type</label>
+                       
+                        <input type="text" placeholder='FirstName' className="sign-input" autoComplete='off' onChange={(e) => setFirstName (e.target.value)} value={firstName} required/>
                         
-                        <select className="select" type="Selection" autoComplete='off' onChange={(e) => setIdentificationType (e.target.value)} value={identificationType}>
+                        <input type="text"  placeholder='LastName' className="sign-input" autoComplete='off' onChange={(e) => setLastName (e.target.value)} value={lastName} required/> <br />
+                       
+                        <input type="text" placeholder='Email' className="sign-input" autoComplete='off' onChange={(e) => setEmail (e.target.value)} value={email} required/>
+                        
+                        <input type="text" placeholder='Mobile' className="sign-input" autoComplete='off' onChange={(e) => setMobile (e.target.value)}value={mobile} required/><br />
+
+                        
+                        
+                        <select className="sign-input" placeholder='IdentificationType' type="Selection" autoComplete='off' onChange={(e) => setIdentificationType (e.target.value)} value={identificationType}>
                             <option value="">National ID</option>
                             <option value="">Driver's Lisence</option>
                         </select>
 
-                        <label htmlFor="identification number" className="sign-label">identification number</label>
-                        <input type="number" className="select" autoComplete='off' onChange={(e) => setIdentificationNumber (e.target.value)}value={identificationNumber} required /> 
-                        <label htmlFor="Address" className="sign-label">Address</label> <br />
-                        <input type="text" className="address"  autoComplete='off' onChange={(e) => setAddress (e.target.value)} value={address} required/>  <br/>
-                        <label htmlFor="password" className="sign-label">Password</label> 
-                        <input type="password" className="select" autoComplete='off' onChange={(e) => setPassword (e.target.value)} value={password} required/>
-                        <label htmlFor="Confirm" className="sign-label">Confirm Password</label>
-                        <input type="password" className="select"  autoComplete='off' onChange={(e) => setConfirmPassword (e.target.value)} value={confirmPassword} required/> 
+                        
+                        <input type="text" placeholder='IdentificationNumber' className="sign-input" autoComplete='off' onChange={(e) => setIdentificationNumber (e.target.value)}value={identificationNumber} required /> 
+                        
+                        <input type="text" placeholder='Address' className="address"  autoComplete='off' onChange={(e) => setAddress (e.target.value)} value={address} required/>  <br/>
+                        
+                        <input type="password" placeholder='Password' className="sign-input" autoComplete='off' onChange={(e) => setPassword (e.target.value)} value={password} required/>
+                       
+                        <input type="password" placeholder='ConfirmPassword' className="sign-input"  autoComplete='off' onChange={(e) => setConfirmPassword (e.target.value)} value={confirmPassword} required/> 
 
                         <button  type='submit' className="register">Register</button>
-                        {/* <Link href="/form"><button  type='submit' className="register">Register</button></Link> */}
+                        
                         
                     </form>
 

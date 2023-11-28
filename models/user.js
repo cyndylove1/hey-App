@@ -2,16 +2,16 @@ import mongoose, { Schema,  models } from 'mongoose';
 
 
 const userSchema = new Schema({
-// firstName:{
-//     type: String,
-//     required:[true, 'please add a text value']
+firstName:{
+    type: String,
+    required:[true, 'please add a text value']
 
-//   } ,
-//   lastName:{
-//     type: String,
-//     required:[true, 'please add a text value']
+  } ,
+  lastName:{
+    type: String,
+    required:[true, 'please add a text value']
 
-// } ,
+} ,
   email: {
     type: String,
     unique: true,
