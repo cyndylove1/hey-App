@@ -15,6 +15,7 @@ header{
     right: 0;
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     align-items: center;
     transition: 0.5s;
@@ -124,7 +125,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 7%;
+    padding-top: 9%;
 }
 .hero-text{
     text-align: justify;
@@ -602,7 +603,7 @@ header{
 
 /* form section */
 .form-section{
-    height: 100vh;
+    /* height: 100vh; */
 }
 .form-page{
     border-top: 5px solid rgb(220, 147, 250);
@@ -611,18 +612,19 @@ header{
     display: flex;
     justify-content: center;
     background-color: rgb(255, 255, 255);
-    height: 100vh;
+    height: 110vh;
 }
 .form{
+    background-color: var(--smoke-color);
     /* -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.25); */
     /* box-shadow: 0 10px 20px rgba(21,19,19,.4); */
     width: 45%;
     border-top: 3px solid rgb(220, 147, 250);
     border-bottom: 3px solid rgb(220, 147, 250);
     height: 400px;
-    margin-top: 10%;
+    margin-top: 13%;
     margin-left: 10%;
-    padding-left: 10%;
+    padding: 0 3%;
     margin-right: 10%;
     /* background: rgb(107,6,156); */
     /* background: linear-gradient(90deg, rgba(107,6,156,1) 0%, rgba(11,2,17,1) 65%); */
@@ -639,7 +641,7 @@ header{
     margin: 0 0 0 -30px;
 }
 .form input{
-    width: 70%;
+    width: 100%;
     background-color: whitesmoke;
     padding: 10px 20px;
     outline: none;
@@ -680,10 +682,10 @@ form a {
     font-size: 20px;
 }
 .form-btn{
-    margin-top: 5%;
+    /* margin-top: 5%; */
     border: none;
     border-radius: 5px;
-    width: 70%;
+    width: 100%;
     font-weight: 700;
     padding: 10px 40px;
     background-color:rgb(107,6,156); 
@@ -884,7 +886,7 @@ form .address:hover{
         padding-left: 10px;
     }
     .services{
-        height: 1000px;
+        height: 1100px;
     }
     .services-content{
         flex-direction: column;
@@ -914,13 +916,13 @@ form .address:hover{
     
     .blog-content{
         flex-direction: column;
-        width: 150%;
+        width: 160%;
     }
     .blog-container h5{
         padding-top: 30px;
     }
     .blog-container h2{
-        font-size: 15px;
+        font-size: 20px;
     }
     .blog-text li span{
         padding: 20px 10px;
@@ -990,7 +992,7 @@ form .address:hover{
         flex-direction: column;
     }
     .logo2{
-        margin-left: 20px;
+        margin-left: 14px;
         width: 95%;
     }
     .footer-content{
@@ -1013,37 +1015,34 @@ form .address:hover{
 
     /* form section ends here */
     
-    
-   
     .form{
         width: 100%;
-        height: 500px;
-        margin-left: 10%;
-        margin-top: 25%;
-        border-bottom: 3px solid rgb(220, 147, 250);
-        
+        margin-top: 55%;
+        padding:  0 3%;
+       
     }
+   
     .form-page{
-        height: 90vh;
+        height: 120vh;
     }
     .form input{
-        width: 90%;
+        width: 100%;
        
     }
     .form-btn{
-        width: 90%;
+        width: 100%;
         
     }
     .form-title h4{
         font-size: 20px;
-        padding: 30px 10px;
+        padding: 20px 10px;
     }
     /* form section ends here */
 
 
     /* sign up section ends here */
     .Sign-up{
-        height: 180vh;
+        height: 190vh;
 
     }
 
@@ -1227,7 +1226,7 @@ form .address:hover{
         /* padding-left: 7px; */
     }
     .services{
-        height: 1000px;
+        height: 1100px;
         /* padding: 0 3%; */
         /* margin-right: 5%; */
     }
@@ -1362,33 +1361,34 @@ form .address:hover{
         width: 100%;
         height: 500px;
         margin-left: 10%;
-        margin-top: 25%;
-        padding-left: 4%;
-        border-bottom: 3px solid rgb(220, 147, 250);;
+        margin-top: 28%;
+        padding: 0 3%;
+        border-bottom: 3px solid rgb(220, 147, 250);
 
         
     }
     .form-page{
-        height: 100vh;
+        height: 110vh;
     }
     .form input{
-        width: 95%;
+        width: 100%;
+        
     
     }
     .form-btn{
-        width: 95%;
+        width: 100%;
         
     }
     .form-title h4{
         font-size: 30px;
-        padding: 30px 0;
+        padding: 20px 0;
     }
     /* form section ends here */
 
 
     /* sign up section begins here */
     .Sign-up{
-        height: 180vh;
+        height: 160vh;
 
     }
     .Sign-title{
@@ -1535,7 +1535,7 @@ form .address:hover{
         /* padding-left: 10px; */
     }
     .services{
-        height: 1000px;
+        height: 1100px;
     }
     .services-content{
         flex-direction: column;
@@ -1654,27 +1654,28 @@ form .address:hover{
     .form{
         width: 100%;
         height: 500px;
-        margin-left: 15%;
-        margin-top: 20%;
+        margin-left: 10%;
+        margin-top: 30%;
+        padding: 0 3%;
         border-bottom: 3px solid rgb(220, 147, 250);
         
         
     }
     .form-page{
-        height: 90vh;
+        height: 120vh;
     }
     .form input{
-        width: 90%;
+        width: 100%;
     
     }
     .form-btn{
-        width: 90%;
+        width: 100%;
         
     
     }
     .form-title h4{
         font-size: 30px;
-        padding: 30px 0;
+        padding: 20px 0;
     }
     /* form section ends here */
 
@@ -1817,7 +1818,7 @@ form .address:hover{
         /* padding-left: 10px; */
     }
     .services{
-        height: 1000px;
+        height: 1100px;
     }
     .services-content{
         flex-direction: column;
@@ -1845,8 +1846,9 @@ form .address:hover{
         /* margin-right: 5%; */
     }
     .blog-img{
+        /* border: 2px solid red; */
         width: 150%;
-        margin-right: 5%;
+        /* margin-right: 4%; */
         
     }
     /* blog section ends here */
@@ -1863,7 +1865,7 @@ form .address:hover{
     }
     .img4{
         height: 100px;
-        width: 40%;
+        width: 33%;
         border-radius: 50%;
         border: 3px solid var(--white-color);
     }
@@ -1971,22 +1973,25 @@ form .address:hover{
         border-bottom: 3px solid rgb(220, 147, 250);
         width: 100%;
         margin-left: 10%;
-        margin-top: 15%;
+        margin-top: 20%;
+        padding: 0 3%;
     }
     .form input{
-        width: 90%;
+        width: 100%;
         
     }
     .form-btn{
-        width: 90%;
+        width: 100%;
+        /* border: 2px solid red; */
         
     }
     .form-page{
         width: 100%;
+        height: 90vh;
     }
     .form-title h4{
         font-size: 35px;
-        padding: 40px 0;
+        padding: 20px 0;
     
     }
     /* form section ends here */
@@ -2044,7 +2049,7 @@ form .address:hover{
 
  }
 
- @media screen and (min-width: 1001px) and ( max-width: 1029.33px){
+ @media screen and (min-width: 1001px) and ( max-width: 1114px){
     .navbar {
         padding-top: 20px;
         margin-right: 10%;
@@ -2056,11 +2061,11 @@ form .address:hover{
     }
     .navbar ul{
         /* border: 2px solid blue; */
-        padding: 5px 0;
+        padding: 2px 0;
     }
     /* hero section begins here  */
     .logo h2{
-        margin-top: 0px;
+        /* margin-top: 0px; */
         margin-left: 40px;
         
     }
@@ -2214,20 +2219,36 @@ form .address:hover{
 
     /* form section begins here  */
     .form{
-        /* margin-right: 20%; */
-        /* width: 60%; */
-        /* margin-left: 10%; */
-        margin-top: 13%;
-        /* padding-left: 7%; */
+        background-color: var(--smoke-color);
+        /* -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.25); */
+        /* box-shadow: 0 10px 20px rgba(21,19,19,.4); */
+        width: 45%;
+        border-top: 3px solid rgb(220, 147, 250);
+        border-bottom: 3px solid rgb(220, 147, 250);
+        height: 400px;
+        margin-top: 15%;
+        /* margin-left: 0; */
+        padding:  0 3%;
+        /* margin-right: 0%; */
+        /* background: rgb(107,6,156); */
+        /* background: linear-gradient(90deg, rgba(107,6,156,1) 0%, rgba(11,2,17,1) 65%); */
+        border-radius: 10px;
+    }
+    .form{
+        
+        margin-top: 15%;
     }
     .form input{
-        /* width: 100%; */
-        margin-right: 2%;
+        width: 100%;
+        /* margin-right: 2%; */
         
         
     }
     .form-btn{
-        /* width: 100%; */
+        width: 100%;
+    }
+    .form-page{
+        height: 110vh;
     }
 
     /* sign up section begins here */
@@ -2243,12 +2264,12 @@ form .address:hover{
     }
     
     form .address{
-        width: 85%;
+        width: 90%;
         
     }
     
     .select{
-        width: 30%;
+        width: 32%;
         
     }
     
