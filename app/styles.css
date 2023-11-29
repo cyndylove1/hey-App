@@ -1039,6 +1039,7 @@ form .address:hover{
     }
     
     form .address{
+        width: 90%;
         margin-left: 5%;
         margin-bottom: 0;
         margin-top: 0;
@@ -1321,6 +1322,7 @@ form .address:hover{
     }
     
     form .address{
+        width: 90%;
         margin-bottom: 0;
         margin-left: 5%;
     }
@@ -1331,6 +1333,7 @@ form .address:hover{
     }
     .register{
         margin-top: 10%;
+        margin-left: 65%;
     }
     .Sign-title h4{
         padding: 0 50px;
@@ -1614,6 +1617,7 @@ form .address:hover{
     
     form .address{
         margin-left: 5%;
+        width: 90%;
         margin-bottom: 0;
     }
    
@@ -1929,6 +1933,7 @@ form .address:hover{
     }
     
      form .address{
+        width: 90%;
         margin-left: 5%;
         margin-bottom: 0;
     }
@@ -2156,7 +2161,7 @@ form .address:hover{
     }
     
     form .address{
-        width: 82%;
+        width: 81.5%;
         
     }
     .select{
