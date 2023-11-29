@@ -724,7 +724,7 @@ form .sign-input:hover{
 }
 
 form .address{
-    width: 90%;
+    width: 84.5%;
     outline: none;
     margin-left: 30px;
     border: 1px solid #000;
@@ -2156,7 +2156,7 @@ form .address:hover{
     }
     
     form .address{
-        width: 90%;
+        width: 82%;
         
     }
     .select{
