@@ -9,32 +9,70 @@ import {TbAssembly} from "react-icons/tb"
 import {TbAsterisk} from "react-icons/tb"
 import {TbAward} from "react-icons/tb"
 import {TbBadgeFilled} from "react-icons/tb"
+import { motion } from 'framer-motion';
 // import ScrollReveal from 'scrollreveal';
 
 
 
- export default function About () {
-    // const sr = ScrollReveal ({
-    //     distance: '60px',
-    //     duration: 2000,
-    //     reset: true
-    
-    //  })
-    //  sr.reveal('.about-us h2,.about-us h5,.img5,.about-section2,.about-section',{delay:350, origin:'bottom'})
-     
+
+const container = {
+    show:{
+        transition:{
+            staggerChildren:0.35,
+        },
+    },
+        
+};
+
+const item = {
+    hidden:{
+        opacity:0,
+        y:200,
+
+    },
+    show:{
+        opacity:1,
+        y: 0,
+        transition:{
+            ease:[.6, .01, -.05, .95],
+            duration:1.6,
+
+        },
+    },
+    exit:{
+        opacity:0,
+        y:-200,
+        transition:{
+            ease: "easeInOut",
+            duration:0.8,
+        }
+    }
+}
+
+ export default function About (variants) {
+   
     
     return(
         <div>
-            <div className="about">
+            <motion.div className="about"
+                    
+                    variant={container}
+                    initial="hidden"
+                    animate = "show" 
+                    exit="exit">
+                    
+                    
                 <div className="about-us">
                     <h2>HeyWallet Features</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Esse, autem.</p>
                 </div>
                 <div className="about-container">
 
-                    <div className="about-img">
-                        <Image src={about} alt="heywallet image"  className="img5"/>
-                    </div>
+                    <motion.div className="about-img"
+                        variants={variants}>
+                            
+                        <Image  variants={item} src={about} alt="heywallet image"  className="img5"/>
+                    </motion.div>
                     
                 <div className="about-section">
                     <div className="about-text">
@@ -138,7 +176,7 @@ import {TbBadgeFilled} from "react-icons/tb"
 
                 </div>
                 
-            </div>
+            </motion.div>
             
                
         

@@ -3,6 +3,7 @@
 import '../styles.css'
  import Image from "next/image" 
  import blog from '@/public/images/100.png'
+ import { PageWrapper } from '../page-wrapper'
 //  import ScrollReveal from 'scrollreveal'
 
 
@@ -18,9 +19,11 @@ import '../styles.css'
     
     return(
         <div>
+           
             <div className="blog">
                 <div className="main-blog">
                     <div className="main-container">
+                    <PageWrapper/>
                         <div className="blog-container">
                             <h5>WHY CHOOSE US?</h5>
                             <h2>Enterprise Blockchain Services  to Build a Better Future.</h2>

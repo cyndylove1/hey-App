@@ -10,6 +10,7 @@ import {FaFacebookF} from "react-icons/fa6";
 import {FaTwitter} from "react-icons/fa6";
 import {FaLinkedinIn} from "react-icons/fa6";
 import {FaInstagram} from "react-icons/fa6"
+import { PageWrapper } from '../page-wrapper';
 // import ScrollReveal from 'scrollreveal';
 
 
@@ -25,13 +26,17 @@ export default function Team () {
     
     return(
         <div>
+             
             
             <div className="team">
                 <div className="team-container">
+                <PageWrapper/>
                     <h2>Our Team</h2>
                 </div>
                 <div className="team-content">
+                <PageWrapper/>
                     <div className="team-info">
+                    {/* <PageWrapper/> */}
                         <div className="team-text">
                             
                             <Image src={team1} className="img4"/>

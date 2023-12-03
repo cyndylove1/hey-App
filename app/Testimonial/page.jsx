@@ -11,6 +11,7 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import {Navigation, Autoplay } from 'swiper/modules';
+import { PageWrapper } from '../page-wrapper'
 // import ScrollReveal from 'scrollreveal'
 
 export default function Testimonial(){
@@ -24,6 +25,7 @@ export default function Testimonial(){
      
     return(
         <div>
+             <PageWrapper/>
              <div className="testimonial-title">
                     <h2>What Says Our Customers</h2>
                 </div>

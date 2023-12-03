@@ -3,6 +3,7 @@ import '../globals.css'
 import '../styles.css'
 import Image from "next/image"
 import cta from "@/public/images/laptop.png"
+import { PageWrapper } from '../page-wrapper'
 // import ScrollReveal from 'scrollreveal'
 
 
@@ -17,6 +18,7 @@ export default function Cta (){
     
     return(
         <div>
+             <PageWrapper/>
             <div className="cta">
                 <div className="cta-container">
                     <div className="cta-section">
