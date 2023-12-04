@@ -1,5 +1,4 @@
  'use client'
- 'use client'
  import '../styles.css'
 import '../globals.css'
  import {FaRegEyeSlash} from  'react-icons/fa6'
@@ -35,19 +34,11 @@ async function getData (){
         
     <div className="form-section">
         <div> 
-            {/* <Navbar/> */}
-        {/* <Navbar/> */}
-                {/* <div className='form-heading'>
-                    <h2><span className='fa'><FaGoogleWallet/></span>HEYWALLET</h2>
-
-                </div> */}
-            {/* <div className="form-heading">
-                 <h5>HEYWALLET</h5>
-            </div> */}
+           
             <div className="form-page">
                 
                 <form action="" className="form">
-                    <div className="form-title"><h4>HeyWallet - Login</h4></div>
+                    <div className="form-title"><h4>HeyWallet-Login</h4></div>
                        
 
                         <label htmlFor="email">Email</label> <br />
