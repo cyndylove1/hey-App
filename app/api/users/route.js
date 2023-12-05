@@ -5,7 +5,14 @@ import { NextResponse } from 'next/server'
 import {cors} from ('cors');
 
 
-app.use(cors());
+// app.use(cors());
+app.use(
+       cors({
+        origin: 'http://localhost:3000/api/users',
+        methods: ['GET', 'POST', 'PUT', 'DELETE'],
+        allowedHeaders: ['Content-Type'],
+      })
+     );
 
 export async function POST (req) {
     
