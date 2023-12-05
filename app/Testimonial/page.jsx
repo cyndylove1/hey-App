@@ -7,44 +7,23 @@ import client2 from "@/public/images/client2.jpg"
 import {BsQuote} from "react-icons/bs"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-// import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
-import 'swiper/css/pagination';
-import {Pagination, Autoplay } from 'swiper/modules';
-// import { PageWrapper } from '../page-wrapper'
-// import ScrollReveal from 'scrollreveal'
+import { Autoplay } from 'swiper/modules';
 
 export default function Testimonial(){
-    // const sr = ScrollReveal ({
-    //     distance: '60px',
-    //     duration: 2000,
-    //     reset: true
-    
-    //  })
-    //  sr.reveal('.testimonial-title h2',{delay:350, origin:'bottom'})
+   
      
     return(
         <div>
-             {/* <PageWrapper/> */}
+             
              <div className="testimonial-title">
                     <h2>What Says Our Customers</h2>
                 </div>
             <Swiper
-                // slidesPerView={3}
                 loop={true}
                 autoplay={{delay:2000,  disableOnInteraction:false,}}
                 spaceBetween={20}
-                 pagination={{
-                    clickable: true,
-
-                    
-                 }}
-                  
-                 modules={[Pagination , Autoplay ]}
-                // slidesPerView={3}
-               
-                // navigation={true}
-                // modules={[Navigation, Autoplay]}
+                 modules={[Autoplay ]}
                 className="mySwiper"
                 breakpoints={{
                     0:  {
