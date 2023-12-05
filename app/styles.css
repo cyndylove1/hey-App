@@ -526,6 +526,7 @@ header{
 .quick-links h5{
     font-weight: 700;
     padding-top: 30px;
+   
     
 }
 .quick-links li {
@@ -594,7 +595,7 @@ header{
     border-top: 5px solid rgb(220, 147, 250);
     display: flex;
     justify-content: center;
-    background-image: var(--gradient),url("../public/images/105964618-1560376221bitcoin-1170x463-1-1536x864.jpg");
+    background-image: var(--gradient-color),url("../public/images/105964618-1560376221bitcoin-1170x463-1-1536x864.jpg");
 
     background-position: center;
     background-size: cover;
