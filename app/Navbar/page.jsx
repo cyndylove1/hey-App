@@ -8,16 +8,7 @@ import Link from 'next/link';
  
 
 export default function Navbar() {
-    // const  [color, setColor] = useState(false)
-    //  const changeColor = () =>{
-    //     if(window.scrollY >= 90){
-    //         setColor(true)
-    //    }else{
-    //         setColor(false)
-    //     }
-
-    //  }
-    // window.addEventListener('scroll', changeColor)
+    
         
     
 
