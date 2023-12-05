@@ -720,6 +720,7 @@ form .sign-input {
     margin-right: 30px;
     transition: 0.5s;
 }
+
 form .sign-input:hover{
     border: 1px solid rgb(220, 147, 250);
 }

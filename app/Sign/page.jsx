@@ -76,8 +76,9 @@ import { useState } from 'react'
                         
                         
                         <select className="sign-input" placeholder='IdentificationType' type="Selection" autoComplete='off' onChange={(e) => setIdentificationType (e.target.value)} value={identificationType}>
-                            <option value="">National ID</option>
-                            <option value="">Driver's Lisence</option>
+                            <option value="National ID">National ID</option>
+                            <option value="Driver's Lisence">Driver's Lisence</option>
+                            
                         </select>
 
                         
