@@ -5,8 +5,7 @@ import '../globals.css'
 import {FaGoogleWallet} from 'react-icons/fa6'
 import {FaRegEye} from 'react-icons/fa6'
 import { useState } from 'react'
-// import Navbar from '../Navbar/page'
-// import Navbar from '../Navbar/page'
+
 
 async function getData (){
     await new Promise (resolve => setTimeout(resolve , 3000)) 

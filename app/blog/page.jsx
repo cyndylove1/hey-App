@@ -4,18 +4,11 @@ import '../styles.css'
  import Image from "next/image" 
  import blog from '@/public/images/100.png'
  import { PageWrapper } from '../page-wrapper'
-//  import ScrollReveal from 'scrollreveal'
+
 
 
  export default function Blog () {
-    // const sr = ScrollReveal ({
-    //     distance: '60px',
-    //     duration: 2000,
-    //     reset: true
     
-    //  })
-    //  sr.reveal('.blog-container h5,.blog-container p,.blog-container h2,.blog-text,.img3',{delay:350, origin:'bottom'})
-     
     
     return(
         <div>

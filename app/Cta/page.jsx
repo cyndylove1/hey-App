@@ -4,17 +4,10 @@ import '../styles.css'
 import Image from "next/image"
 import cta from "@/public/images/laptop.png"
 import { PageWrapper } from '../page-wrapper'
-// import ScrollReveal from 'scrollreveal'
+
 
 
 export default function Cta (){
-    // const sr = ScrollReveal ({
-    //     distance: '60px',
-    //     duration: 2000,
-    //     reset: true
-    
-    //  })
-    //  sr.reveal('.cta-text h4,.cta-img,.cta-btn2 ',{delay:350, origin:'bottom'})
     
     return(
         <div>

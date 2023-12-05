@@ -27,6 +27,7 @@ import { useState } from 'react'
                 body: JSON.stringify({
                     firstName,lastName,email,password,mobile,identificationNumber,identificationType,address,confirmPassword
                 })
+                
             })
             if (res.ok){
                 const form = e.target;
@@ -39,10 +40,7 @@ import { useState } from 'react'
             
         }
         
-        // axios.post("http://localhost:3000/Sign",{firstName, lastName, email,mobile, identificationNumber, identificationType ,address, password,confirmPassword})
-        // .then(res =>{
-        //     router.push('/form')
-        // }).catch(err => console.log(err))
+        
         
 
     }
