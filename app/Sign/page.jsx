@@ -2,9 +2,10 @@
 import '../styles.css'
 import '../globals.css'
 import { useState } from 'react'
-// import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 
  export default function Sign (){
+    const router = useRouter()
     
     const [firstName , setFirstName] = useState("")
     const [lastName , setLastName] = useState("")
@@ -19,7 +20,7 @@ import { useState } from 'react'
     const handleSubmit  = async (e) =>{
         e.preventDefault()
         try {
-           const res = await fetch('/api',{
+           const res = await fetch('/api/users',{
                 method: 'POST',
                 headers: {
                     "Content-Type": "application/json"
@@ -39,10 +40,7 @@ import { useState } from 'react'
             
         }
         
-        // axios.post("http://localhost:3000/Sign",{firstName, lastName, email,mobile, identificationNumber, identificationType ,address, password,confirmPassword})
-        // .then(res =>{
-        //     router.push('/form')
-        // }).catch(err => console.log(err))
+        
         
 
     }
@@ -76,8 +74,8 @@ import { useState } from 'react'
                         
                         
                         <select className="sign-input" placeholder='IdentificationType' type="Selection" autoComplete='off' onChange={(e) => setIdentificationType (e.target.value)} value={identificationType}>
-                            <option value="">National ID</option>
-                            <option value="">Driver's Lisence</option>
+                            <option value="National ID">National ID</option>
+                            <option value="Driver's Lisence">Driver's Lisence</option>
                         </select>
 
                         
@@ -89,7 +87,7 @@ import { useState } from 'react'
                        
                         <input type="password" placeholder='ConfirmPassword' className="sign-input"  autoComplete='off' onChange={(e) => setConfirmPassword (e.target.value)} value={confirmPassword} required/> 
 
-                        <button  type='submit' className="register">Register</button>
+                        <button  type='submit'  onClick={() => router.push('/form')} className="register">Register</button>
                         
                         
                     </form>
