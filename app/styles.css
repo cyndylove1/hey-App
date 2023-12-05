@@ -581,15 +581,6 @@ header{
 
 
 /* form section */
-.form-paged{
-    /* background-color: black; */
-
-}
-.form-section{
-    /* background-color: var(--blue-color); */
-    /* border: 2px solid red; */
-
-}
 
 .form-page{
     border-top: 5px solid rgb(220, 147, 250);
@@ -678,7 +669,7 @@ form a {
 }
 .form-btn:hover{
     color: #000;
-    background-color:rgb(220, 147, 250) ;
+    background-color:rgb(207, 105, 248) ;
 }
 .forget-password h6{
     margin-left: 10%;
@@ -982,18 +973,18 @@ form .address:hover{
         flex-direction: column;
     }
     .logo2{
-        margin-left: 14px;
+        margin-left: 10px;
         width: 95%;
     }
     .footer-content{
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .quick-links{
-        margin-left: 20px;
+        margin-left: 10px;
         
     }
     .location{
-        margin-left: 20px;
+        margin-left: 10px;
     
     }
     .social-footer h5:hover{
@@ -1275,17 +1266,17 @@ form .address:hover{
         flex-direction: column;
     }
     .logo2{
-        margin-left: 25px;
+        margin-left: 15px;
     }
     .footer-content{
-        margin-left: 25px;
+        margin-left: 15px;
     }
     .quick-links{
-        margin-left: 25px;
+        margin-left: 15px;
         
     }
     .location{
-        margin-left: 25px;
+        margin-left: 15px;
     
     }
     .social-footer h5:hover{
@@ -1580,17 +1571,17 @@ form .address:hover{
     
     .logo2{
         width: 80%;
-        margin-left: 25px;
+        margin-left: 15px;
     }
     .footer-content{
-        margin-left: 25px;
+        margin-left: 15px;
     }
     .quick-links{
-        margin-left: 25px;
+        margin-left: 15px;
         
     }
     .location{
-        margin-left: 25px;
+        margin-left: 15px;
     
     }
     .social-footer h5:hover{
@@ -1856,19 +1847,19 @@ form .address:hover{
     }
     .logo2{
         width: 80%;
-        margin-left: 25px;
+        margin-left: 15px;
     }
     
     .footer-content{
-        margin-left: 25px;
+        margin-left: 15px;
     }
     
     .quick-links{
-        margin-left: 25px;
+        margin-left: 15px;
         
     }
     .location{
-        margin-left: 25px;
+        margin-left: 15px;
     
     }
     .social-footer h5:hover{

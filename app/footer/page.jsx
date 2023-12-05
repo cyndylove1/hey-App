@@ -26,8 +26,8 @@ export default function Footer (){
                         <h2><span className='fa'><FaGoogleWallet/></span>HEYWALLET</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur <br /> adipisicing elit. Eum doloremque, dolorem <br /> assumenda labore animi aliquid?</p>
                         
-
                     </div>
+                    
                     <div className='footer-content'>
                         <h4>Socials</h4>
                         <h6>Josephineallard@gmail.com</h6>
