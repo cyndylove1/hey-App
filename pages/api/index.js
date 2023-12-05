@@ -23,7 +23,7 @@ export default function POST (req, NextResponse) {
         return NextResponse.json({message:"User Registered"},{status:200});
         
     } catch (error) {
-        return NextResponse.json({message:"An error occurred while registering"}, {status:500});
+        return NextResponse.json({message:"unable to send"}, {status:500});
 
         
     }

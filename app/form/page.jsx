@@ -32,9 +32,8 @@ async function getData (){
 
     return(
         
-    <div className="form-section">
-        <div> 
-           
+    <div className='form-paged'>
+        <div className='form-section'> 
             <div className="form-page">
                 
                 <form action="" className="form">
