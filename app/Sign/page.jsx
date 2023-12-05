@@ -3,15 +3,10 @@ import '../styles.css'
 import '../globals.css'
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
-import Link from 'next/link'
 
  export default function Sign (){
     const router = useRouter()
 
-    // const handleClick = (e) => {
-    //     e.preventDefault()
-    //     router.push("/form")
-    //   }
     
     const [firstName , setFirstName] = useState("")
     const [lastName , setLastName] = useState("")
@@ -39,7 +34,7 @@ import Link from 'next/link'
             if (res.ok){
                 const form = e.target;
                 form.reset()
-                // router.push("/form")
+                
             }else{
                 console.log("User registration Failed")
             }
@@ -97,10 +92,10 @@ import Link from 'next/link'
                         <input type="password" placeholder='ConfirmPassword' className="sign-input"  autoComplete='off' onChange={(e) => setConfirmPassword (e.target.value)} value={confirmPassword} required/> 
 
                         
-                        {/* <Link href={"/form"}> */}
+                        
                           <button  type='submit' onClick={() => router.push('/form')}className="register">Register</button>
 
-                        {/* </Link> */}
+                        
                         
                         
                     </form>
