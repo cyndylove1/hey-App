@@ -1,9 +1,11 @@
 import  connectDB from '../../../utils/mongodb'
 import User from '../../../models/user'
 import bcrypt from "bcryptjs"
-import { NextResponse } from 'next/server';
+import { NextResponse } from 'next/server'
+import {cors} from ('cors');
 
 
+app.use(cors());
 
 export async function POST (req) {
     
