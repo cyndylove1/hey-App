@@ -1,7 +1,6 @@
 'use client'
 import '../styles.css'
 import '../globals.css'
-import Navbar from '../Navbar/page'
 import { useState } from 'react'
 // import Link from 'next/link'
 
@@ -49,7 +48,7 @@ import { useState } from 'react'
     }
     return(
         <div>
-            {/* <Navbar/> */}
+        
             <div className="Sign-up">
                 <div className="title">
                     <div className="Sign-title">

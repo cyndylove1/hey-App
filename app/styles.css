@@ -688,13 +688,13 @@ form a {
 
 }
 .member{
-    padding: 20px 80px;
+    padding: 20px 13%;
 }
 .member a{
     text-decoration: none;
 }
 .Sign{
-    
+    margin-left: 5%;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -738,7 +738,8 @@ form .address:hover{
 }
 
 .register{
-    margin-left: 87%;
+    margin-left: 70%;
+    margin-top: -6%;
     padding: 10px 20px; 
     border-radius: 5px;
     background-color: rgb(220, 147, 250);
@@ -1029,6 +1030,7 @@ form .address:hover{
     }
 
     .Sign{
+        margin: 0;
         flex-direction: column;
     }
     .title{
@@ -1326,6 +1328,7 @@ form .address:hover{
     
 
     .Sign{
+        margin: 0;
         flex-direction: column;
     }
     .title{
@@ -1629,6 +1632,7 @@ form .address:hover{
 
     }
     .Sign{
+        margin: 0;
         flex-direction: column;
     }
     .title{
@@ -1905,6 +1909,7 @@ form .address:hover{
     }
 
     .Sign{
+        margin: 0;
         flex-direction: column;
     }
     .title{
@@ -2146,7 +2151,8 @@ form .address:hover{
         
     }
     .register{
-        margin-left: 85%;
+        margin-left: 75%;
+        margin-top: 2%;
     }
     /* sign up section begins here  */
     
