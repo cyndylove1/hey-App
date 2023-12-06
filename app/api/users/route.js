@@ -2,17 +2,9 @@ import  connectDB from '../../../utils/mongodb'
 import User from '../../../models/user'
 import bcrypt from "bcryptjs"
 import { NextResponse } from 'next/server'
-import {cors} from ('cors');
 
 
-// app.use(cors());
-app.use(
-       cors({
-        origin: 'http://localhost:3000/api/users',
-        methods: ['GET', 'POST', 'PUT', 'DELETE'],
-        allowedHeaders: ['Content-Type'],
-      })
-     );
+
 
 export async function POST (req) {
     
@@ -20,14 +12,14 @@ export async function POST (req) {
     
     try {
         const { firstName,lastName,email,password,mobile,identificationNumber,identificationType,address,confirmPassword } = await req.json()
-        const hashedPassword = bcrypt.hash(password ,10)
+        const hashedPassword = await bcrypt.hash(password ,10)
 
-        User.create({firstName,lastName,email,mobile,identificationNumber,identificationType,address,confirmPassword ,password});
+        User.create({firstName,lastName,email,mobile,identificationNumber,identificationType,address,confirmPassword ,password:hashed});
 
         return NextResponse.json({message:"User Registered"},{status:200});
         
     } catch (error) {
-        return NextResponse.json({message:"unable to send"}, {status:500});
+        return NextResponse.json({message:"An error ocurred while registering the user"}, {status:500});
 
         
     }

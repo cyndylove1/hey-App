@@ -20,6 +20,28 @@ import { useRouter } from 'next/navigation'
     const handleSubmit  = async (e) =>{
         e.preventDefault()
         try {
+
+            const userExit = await fetch('/api/userExit',{
+                method: 'POST',
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ email }),  
+               
+            })
+            const { user } = await userExit.json()
+
+            if(user){
+                return userExit.send({
+                    success: false,
+                    message:"User Already Exists",
+
+                });
+                
+
+
+            }
+
            const res = await fetch('/api/users',{
                 method: 'POST',
                 headers: {
@@ -41,8 +63,6 @@ import { useRouter } from 'next/navigation'
         }
         
         
-        
-
     }
     return(
         <div>
