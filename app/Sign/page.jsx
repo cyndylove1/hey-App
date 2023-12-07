@@ -21,7 +21,7 @@ import { useRouter } from 'next/navigation'
         e.preventDefault()
         try {
 
-            const userExit = await fetch('/api/userExit',{
+            const resUserExit = await fetch('/api/userExit',{
                 method: 'POST',
                 headers: {
                     "Content-Type": "application/json"
@@ -29,12 +29,12 @@ import { useRouter } from 'next/navigation'
                 body: JSON.stringify({ email }),  
                
             })
-            const { user } = await userExit.json()
+            const { user } = await resUserExit.json()
 
             if(user){
-                return userExit.send({
+                return({
                     success: false,
-                    message:"User Already Exists",
+                    message: "User Already Exists",
 
                 });
                 

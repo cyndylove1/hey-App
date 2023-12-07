@@ -1,6 +1,7 @@
 import './globals.css'
 import './styles.css'
 import Navbar from './Navbar/page'
+import { AuthProvider } from './Providers'
 import { Roboto } from 'next/font/google'
 import 'bootstrap/dist/css/bootstrap.css'
 import Footer from './footer/page'
@@ -16,9 +17,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <Navbar/>
-        {children}
-        <Footer/>
+        
+        <AuthProvider>
+          <Navbar/>
+          {children}
+          <Footer/>
+
+        </AuthProvider>
+        
+        
        
         </body>
     </html>
