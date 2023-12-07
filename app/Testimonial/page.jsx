@@ -21,7 +21,7 @@ export default function Testimonial(){
                 </div>
             <Swiper
                 loop={true}
-                autoplay={{delay:2000,  disableOnInteraction:false,}}
+                autoplay={{delay:5000,  disableOnInteraction:false,}}
                 spaceBetween={20}
                  modules={[Autoplay ]}
                 className="mySwiper"

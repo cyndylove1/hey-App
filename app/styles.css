@@ -448,7 +448,7 @@ header{
     position: absolute;
     height: 100px;
     width: 100px;
-    /* top: -3%; */
+    top: -5%;
     margin-left: 20px;
     
 }
@@ -476,7 +476,7 @@ header{
 .cta-text h4{
     color: var(--white-color);
     font-weight: 500;
-    margin-left: 15%;
+    margin-left: 18%;
 }
 .cta-btn2{
     padding: 10px 20px;
