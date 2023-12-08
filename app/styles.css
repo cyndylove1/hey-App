@@ -71,36 +71,39 @@ header{
       
 }
 
-.navbar ul {
+.navbar ul  {
     display: flex;
     align-items: center;
     padding-top: 20px;
+    text-decoration: none;
     list-style: none;
     margin-left: 8%;
+    
      
     
 }
-.navbar ul li a {
+.navbar ul li {
     text-decoration: none;
     margin: 0 20px;
     color: var(--white-color);
     font-weight: 700;
 }
-.navbar ul li a:hover{
+.navbar ul li:hover{
     color:rgb(231, 190, 249);
+    
 } 
 .btn{
-    color: var(--white-color)!important;
-    font-weight: 700 !important;
-    background-color: rgb(220, 147, 250) !important;
-    padding: 4px 20px !important;
-    transition: 0.4s !important;
+    color: var(--white-color);
+    font-weight: 700;
+    background-color: rgb(220, 147, 250);
+    padding: 4px 20px;
+    transition: 0.4s;
     
 
 }
 .btn:hover{
-    background-color: rgb(231, 190, 249)!important;
-    color: #000 !important;
+    background-color: rgb(231, 190, 249);
+    color: #000;
 }
 
 .logo h2{
@@ -639,6 +642,7 @@ form h6{
     color: #000;
     font-size: 12px;
     padding-top: 5px;
+    font-weight: 600;
 }
 form a {
     padding-left: 6px;

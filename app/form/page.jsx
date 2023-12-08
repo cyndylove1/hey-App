@@ -7,6 +7,7 @@ import {FaRegEye} from 'react-icons/fa6'
 import { useState } from 'react'
 import { signIn } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 // import Navbar from '../Navbar/page'
 // import Navbar from '../Navbar/page'
 
@@ -80,8 +81,19 @@ async function getData (){
                            
 
                         </div>
+                        <div>
+                            
+                        </div>
+                        {/* <div className='not'> */}
+                            
+                            <h6>Not a member?<Link href="/Sign"><span>Sign Up</span></Link></h6>
+                            
+                            
+
+                        {/* </div> */}
+                        
                        
-                        <h6>Not a member?<span><a href="./Sign">Sign Up</a></span></h6>
+                        
                         <button className="form-btn" type='submit'>Login</button>
                         {/* <h6 className="forget-password">ForgetPassword?</h6> */}
                     </form> 

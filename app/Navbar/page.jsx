@@ -34,24 +34,23 @@ export default function Navbar() {
 
             <nav className="navbar">
                 <ul>
-                    {/* <Link href="/">Home</Link>
-                    <Link href="/About">About</Link>
-                    <Link href="/service">Services</Link>
-                    <Link href="/blog">WhyUs</Link>
-                    <Link href="/Team">Team</Link>
-                    <Link href="/Testimonial">Testimonial</Link> */}
                     
+                    
+                    
+                    <Link style={{textDecoration: 'none'}}href="/"><li>Home</li></Link>
+                    <Link style={{textDecoration: 'none'}} href="/About"><li>About</li></Link>
+                    <Link  style={{textDecoration: 'none'}}href="/service"><li>services</li></Link>
+                    <Link  style={{textDecoration: 'none'}}href="/blog"><li>WhyUs</li></Link>
+                    <Link style={{textDecoration: 'none'}} href="/Team"><li>Team</li></Link>
+                    <Link style={{textDecoration: 'none'}} href="/Testimonial"><li>Testimonial</li></Link>
+                        
+                   
 
-                    <li><a href='/'>Home</a></li>
-                    <li><a href='/About'>About</a></li>
-                    <li><a href='/service'>Services</a></li>
-                    <li><a href='/blog'>WhyUs</a></li>
-                    <li><a href='/Team'>Team</a></li>
-                    <li><a href='/Testimonial'>Testimonial</a></li>
-                                                            
+                                                                   
                     <Link href="/form">
                         <button className='btn'>Login</button>
                     </Link>
+                  
                     
                 </ul>
 
