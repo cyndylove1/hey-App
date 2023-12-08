@@ -3,6 +3,8 @@ import '../styles.css'
 import '../globals.css'
 import Image from 'next/image'
 import home from '@/public/images/hero-mobile.79850ce.png'
+import hero from '@/public/images/hero-image.png'
+import heroImg from '@/public/images/hero.png'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -15,14 +17,7 @@ import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 
 export default function Hero (){
-    // const sr = ScrollReveal ({
-    //     distance: '60px',
-    //     duration: 2000,
-    //     reset: true
     
-    //  })
-    //  sr.reveal('.image',{delay:350, origin:'top'})
-    //  sr.reveal('.hero-text', {delay:350, origin:'right'})
     
     
 
@@ -53,35 +48,7 @@ export default function Hero (){
                                 <div className='main-content'>
                                     
 
-                                        {/* <div className='navbar'>
-                                                <div className='logo'>
-                                                    <h2><span className='fa'><FaGoogleWallet/></span>HEYWALLET</h2>
-
-                                                </div>
-                                                
-                                                    <ul>
-                                                        <li><a href='#'>Home</a></li>
-                                                        <li><a href='#'>About</a></li>
-                                                        <li><a href='#'>Services</a></li>
-                                                        <li><a href='#'>Why Us</a></li>
-                                                        <li><a href='#'>Team</a></li>
-                                                        <li><a href='#'>Testimonial</a></li>
-                                                        
-                                                        <Link href="/form">
-                                                            <button className='btn'>Login</button>
-                                                        </Link>
-                                                            
-                                                        
-                                                    </ul>
-                                                
-                                                
-
-
-                                            </div>
-
-                                     */}
-                                
-                                        
+                                       
                                         
                                         <div className='hero-section'>
                                         <div className='hero-content'>
@@ -114,36 +81,7 @@ export default function Hero (){
                         </svg>
                     </div>
                         <div className='main-content'>
-                                        {/* <div className='navbar'>
-                                            <div className='logo'>
-                                                <h2><span className='fa'><FaGoogleWallet/></span>HEYWALLET</h2>
-                                                
-
-                                            </div>
-                                            
-                                                <ul>
-                                                    <li><a href='#'>Home</a></li>
-                                                    <li><a href='#'>About</a></li>
-                                                    <li><a href='#'>Services</a></li>
-                                                    <li><a href='#'>Why Us</a></li>
-                                                    <li><a href='#'>Team</a></li>
-                                                    <li><a href='#'>Testimonial</a></li>
-
-
-
-                                                    <Link href="/form">
-                                                            <button className='btn'>Login</button>
-                                                        </Link>
-                                                    
-
-                                                    
-                                                </ul>
-
-                                            
                                         
-
-
-                                        </div> */}
                                         <div className='hero-section'>
                                         <div className='hero-content'>
                                             <div className='hero-text'>
@@ -153,7 +91,7 @@ export default function Hero (){
                                                     
                                             </div>
                                             <div className='image'>
-                                                <Image src={home} className='img'/>
+                                                <Image src={hero} className='img'/>
                                             </div>
 
                                         </div>
@@ -178,32 +116,7 @@ export default function Hero (){
                     
                                 <div className='main-content'>
                                 
-                                        {/* <div className='navbar'>
-                                            <div className='logo'>
-                                                <h2><span className='fa'><FaGoogleWallet/></span>HEYWALLET</h2>
-
-                                            </div>
-                                            
-                                                <ul>
-                                                    <li><a href='#'>Home</a></li>
-                                                    <li><a href='#'>About</a></li>
-                                                    <li><a href='#'>Services</a></li>
-                                                    <li><a href='#'>Why Us</a></li>
-                                                    <li><a href='#'>Team</a></li>
-                                                    <li><a href='#'>Testimonial</a></li>
-
-                                                    <Link href="/form">
-                                                            <button className='btn'>Login</button>
-                                                        </Link>
-
-                                                    
-                                                </ul>
-
-                                            
                                         
-
-
-                                        </div> */}
                                     <div className='hero-section'>
                                         <div className='hero-content'>
                                             <div className='hero-text'>
@@ -213,7 +126,7 @@ export default function Hero (){
                                                     
                                             </div>
                                             <div className='image'>
-                                                <Image src={home} className='img'/>
+                                                <Image src={heroImg} className='img'/>
                                             </div>
 
                                         </div>
