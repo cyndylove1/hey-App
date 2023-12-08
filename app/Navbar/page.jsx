@@ -39,7 +39,7 @@ export default function Navbar() {
                     
                     <Link style={{textDecoration: 'none'}}href="/"><li>Home</li></Link>
                     <Link style={{textDecoration: 'none'}} href="/About"><li>About</li></Link>
-                    <Link  style={{textDecoration: 'none'}}href="/service"><li>services</li></Link>
+                    <Link  style={{textDecoration: 'none'}}href="/service"><li>Services</li></Link>
                     <Link  style={{textDecoration: 'none'}}href="/blog"><li>WhyUs</li></Link>
                     <Link style={{textDecoration: 'none'}} href="/Team"><li>Team</li></Link>
                     <Link style={{textDecoration: 'none'}} href="/Testimonial"><li>Testimonial</li></Link>

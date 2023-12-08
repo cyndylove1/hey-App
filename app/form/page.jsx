@@ -84,13 +84,9 @@ async function getData (){
                         <div>
                             
                         </div>
-                        {/* <div className='not'> */}
                             
                             <h6>Not a member?<Link href="/Sign"><span>Sign Up</span></Link></h6>
                             
-                            
-
-                        {/* </div> */}
                         
                        
                         

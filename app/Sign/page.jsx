@@ -53,7 +53,8 @@ import { useRouter } from 'next/navigation'
             })
             if (res.ok){
                 const form = e.target;
-                form.reset()
+                form.reset();
+                router.push("/form")
             }else{
                 console.log("User registration Failed")
             }
@@ -107,7 +108,7 @@ import { useRouter } from 'next/navigation'
                        
                         <input type="password" placeholder='ConfirmPassword' className="sign-input"  autoComplete='off' onChange={(e) => setConfirmPassword (e.target.value)} value={confirmPassword} required/> 
 
-                        <button  type='submit'  onClick={() => router.push('/form')} className="register">Register</button>
+                        <button  type='submit' className="register">Register</button>
                         
                         
                     </form>
