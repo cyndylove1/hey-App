@@ -37,18 +37,7 @@ firstName:{
     type: String,
     required:[true, 'please add a text value']
   },
-  // isVerified: {
-  //   type: Boolean,
-  //   default: false
-  // },
-  // isAdmin: {
-  //   type: Boolean,
-  //   default: false
-  // },
-  // forgotPasswordToken: String, 
-  // forgotPasswordExpiry: Date, 
-  // verifyToken:String,
-  // verifyTokenExpiry:Date
+  
 
   
 },{

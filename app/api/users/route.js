@@ -7,19 +7,28 @@ import { NextResponse } from 'next/server'
 
 
 export async function POST (req) {
+    const { firstName,lastName,email,password,mobile,identificationNumber,identificationType,address,confirmPassword } = await req.json()
     
-    connectDB();
+    await connectDB();
+
+    const existingUser = await User.findOne({email})
+
+    if(existingUser){
+        return new NextResponse("user already exists" ,{status:200})
+    }
+    const hashedPassword = await bcrypt.hash(password ,10)
+
+    
     
     try {
-        const { firstName,lastName,email,password,mobile,identificationNumber,identificationType,address,confirmPassword } = await req.json()
-        const hashedPassword = await bcrypt.hash(password ,10)
+       
 
-        User.create({firstName,lastName,email,mobile,identificationNumber,identificationType,address,confirmPassword ,password});
+        User.create({firstName,lastName,email,mobile,identificationNumber,identificationType,address,confirmPassword ,password:hashedPassword});
 
-        return NextResponse.json({message:"User Registered"},{status:200});
+        return new NextResponse({message:"User Registered"},{status:200});
         
     } catch (error) {
-        return NextResponse.json({message:"An error ocurred while registering the user"}, {status:500});
+        return new NextResponse({message:"An error ocurred while registering the user"}, {status:500});
 
         
     }

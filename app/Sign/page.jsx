@@ -5,42 +5,65 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 
  export default function Sign (){
+    const [error, setError] = useState("")
     const router = useRouter()
-    
-    const [firstName , setFirstName] = useState("")
-    const [lastName , setLastName] = useState("")
-    const [email , setEmail] = useState("")
-    const [mobile , setMobile] = useState("")
-    const [identificationNumber , setIdentificationNumber] = useState("")
-    const [identificationType , setIdentificationType] = useState("")
-    const [address , setAddress] = useState("")
-    const [password , setPassword] = useState("")
-    const [confirmPassword , setConfirmPassword] = useState("")
 
+    const isValidEmail = (email) => {
+        const emailRex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+        return emailRex.test(email);
+
+    }
+    
     const handleSubmit  = async (e) =>{
         e.preventDefault()
+        const firstName = e.target[0].value;
+        const lastName = e.target[1].value
+         const email  = e.target[2].value
+        const mobile = e.target[3].value
+        const identificationType = e.target[4].value
+        const identificationNumber = e.target[5].value
+        const address = e.target[6].value
+        const password = e.target[7].value
+        const confirmPassword = e.target[8].value
+        
+        
+
+
+        if(!isValidEmail(email)){
+            setError("Email is invalid" );
+            return;
+            
+
+        }
+        if(!password || password.length < 8){
+            setError("password must contain 8 characters or more" );
+            return;
+            
+        }
+
+
         try {
 
-            const resUserExit = await fetch('/api/userExit',{
-                method: 'POST',
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({ email }),  
+            // const resUserExit = await fetch('/api/userExit',{
+            //     method: 'POST',
+            //     headers: {
+            //         "Content-Type": "application/json"
+            //     },
+            //     body: JSON.stringify({ email }),  
                
-            })
-            const { user } = await resUserExit.json()
+            // })
+            // const { user } = await resUserExit.json()
 
-            if(user){
-                return({
-                    success: false,
-                    message: "User Already Exists",
+            // if(user){
+            //     return({
+            //         success: false,
+            //         message: "User Already Exists",
 
-                });
+            //     });
                 
 
 
-            }
+            // }
 
            const res = await fetch('/api/users',{
                 method: 'POST',
@@ -51,15 +74,18 @@ import { useRouter } from 'next/navigation'
                     firstName,lastName,email,password,mobile,identificationNumber,identificationType,address,confirmPassword
                 })
             })
-            if (res.ok){
-                const form = e.target;
-                form.reset();
-                router.push("/form")
-            }else{
-                console.log("User registration Failed")
+            if(res.status === 400) {
+                setError("Email already Exit")
+            }if(res.status === 200) {
+                setError("")
+                router.push("/form");
             }
+            
+            
+
         } catch (error) {
-            console.log("User registration Failed", error);
+            setError("Error, Try again later" );
+            console.log(error);
             
         }
         
@@ -84,31 +110,33 @@ import { useRouter } from 'next/navigation'
                 <div className="Sign-page">
                     <form action="" className="Sign" onSubmit={handleSubmit}>
                        
-                        <input type="text" placeholder='FirstName' className="sign-input" autoComplete='off' onChange={(e) => setFirstName (e.target.value)} value={firstName} required/>
+                        <input type="text" placeholder='FirstName' className="sign-input" autoComplete='off' required/>
                         
-                        <input type="text"  placeholder='LastName' className="sign-input" autoComplete='off' onChange={(e) => setLastName (e.target.value)} value={lastName} required/> <br />
+                        <input type="text"  placeholder='LastName' className="sign-input" autoComplete='off' required/> <br />
                        
-                        <input type="text" placeholder='Email' className="sign-input" autoComplete='off' onChange={(e) => setEmail (e.target.value)} value={email} required/>
+                        <input type="text" placeholder='Email' className="sign-input" autoComplete='off' required/>
                         
-                        <input type="text" placeholder='Mobile' className="sign-input" autoComplete='off' onChange={(e) => setMobile (e.target.value)}value={mobile} required/><br />
+                        <input type="text" placeholder='Mobile' className="sign-input" autoComplete='off'  required/><br />
 
                         
                         
-                        <select className="sign-input" placeholder='IdentificationType' type="Selection" autoComplete='off' onChange={(e) => setIdentificationType (e.target.value)} value={identificationType}>
+                        <select className="sign-input" placeholder='IdentificationType' type="Selection" autoComplete='off' required>
                             <option value="National ID">National ID</option>
                             <option value="Driver's Lisence">Driver's Lisence</option>
                         </select>
 
                         
-                        <input type="text" placeholder='IdentificationNumber' className="sign-input" autoComplete='off' onChange={(e) => setIdentificationNumber (e.target.value)}value={identificationNumber} required /> 
+                        <input type="text" placeholder='IdentificationNumber' className="sign-input" autoComplete='off' required /> 
                         
-                        <input type="text" placeholder='Address' className="address"  autoComplete='off' onChange={(e) => setAddress (e.target.value)} value={address} required/>  <br/>
+                        <input type="text" placeholder='Address' className="address"  autoComplete='off' required/>  <br/>
                         
-                        <input type="password" placeholder='Password' className="sign-input" autoComplete='off' onChange={(e) => setPassword (e.target.value)} value={password} required/>
+                        <input type="password" placeholder='Password' className="sign-input" autoComplete='off' required/>
                        
-                        <input type="password" placeholder='ConfirmPassword' className="sign-input"  autoComplete='off' onChange={(e) => setConfirmPassword (e.target.value)} value={confirmPassword} required/> 
+                        <input type="password" placeholder='ConfirmPassword' className="sign-input"  autoComplete='off' required/> 
 
                         <button  type='submit' className="register">Register</button>
+
+                        <p>{error && error}</p>
                         
                         
                     </form>

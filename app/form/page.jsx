@@ -8,12 +8,8 @@ import { useState } from 'react'
 import { signIn } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
-// import Navbar from '../Navbar/page'
-// import Navbar from '../Navbar/page'
 
-async function getData (){
-    await new Promise (resolve => setTimeout(resolve , 3000)) 
-}
+
  export default function Form(){
 
     const [email , setEmail] = useState("")
@@ -85,12 +81,14 @@ async function getData (){
                             
                         </div>
                             
-                            <h6>Not a member?<Link href="/Sign"><span>Sign Up</span></Link></h6>
+                            <h6>Not a member?<Link href={"/Sign"}><span>Sign Up</span></Link></h6>
                             
                         
-                       
+                       <Link href={"/Sign"}>
+                            <button className="form-btn" type='submit'>Login</button>
+                       </Link>
                         
-                        <button className="form-btn" type='submit'>Login</button>
+                        
                         {/* <h6 className="forget-password">ForgetPassword?</h6> */}
                     </form> 
             </div>
