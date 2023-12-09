@@ -78,6 +78,8 @@ import { useRouter } from 'next/navigation'
                 setError("Email already Exit")
             }if(res.status === 200) {
                 setError("")
+                const form =e.target
+                form.reset()
                 router.push("/form");
             }
             
