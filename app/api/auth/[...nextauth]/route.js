@@ -18,7 +18,7 @@ const authOptions = {
 
             async authorize(credential) {
                 await connectDB()
-                // const {email, password} = credential
+                const {email, password} = credential
 
                 try {
                     
