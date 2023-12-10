@@ -715,6 +715,14 @@ form a {
     display: flex;
     justify-content: space-between;
 }
+.err{
+    display: none;
+    background-color: red;
+    overflow: hidden;
+    border-radius: 5px;
+    color: var(--white-color);
+    padding: 5px 20px;
+}
 
 form .sign-input {
     outline: none;

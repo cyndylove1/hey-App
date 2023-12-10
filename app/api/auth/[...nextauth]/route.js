@@ -7,29 +7,38 @@ import bcrypt from "bcryptjs"
 const authOptions = {
     providers: [
         CredentialsProvider({
-            name: "credentials",
-            credential:{},
+            id: "credentials",
+            name: "Credentials",
+            credential:{
+                email:{ label: "Email",  type:"text" },
+                password:{ label: "Password",  type:"password" }
+
+
+            },
 
             async authorize(credential) {
-                const {email, password} = credential
+                await connectDB()
+                // const {email, password} = credential
 
                 try {
-                    await connectDB()
-                    const user = await User.findOne({ email})
-
-                    if(!user){
-                        return null
-                    }
-                   const passwordMatch = await bcrypt.compare(password, user.password)
-
-                   if(!passwordMatch){
-                    return null;
-                   }
-                   return user;
-                } catch (error) {
-                    console.error("Error:", error);
                     
-                }
+                    const user = await User.findOne({email})
+
+                    if(user){
+                        const passwordMatch = await bcrypt.compare(password, user.password)
+
+
+                        if(passwordMatch){
+                            return user;
+                        }
+                           
+
+                        
+                    }                  
+                    } catch (error) {
+                        throw new Error(error);
+                        
+                    }
                 
             },
 

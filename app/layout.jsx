@@ -2,6 +2,7 @@ import './globals.css'
 import './styles.css'
 import Navbar from './Navbar/page'
 import { AuthProvider } from './Providers'
+import { getServerSession } from 'next-auth'
 import { Roboto } from 'next/font/google'
 import 'bootstrap/dist/css/bootstrap.css'
 import Footer from './footer/page'
@@ -18,7 +19,8 @@ export const metadata = {
 }
 
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
+  const session = await getServerSession()
   return (
     <html lang="en">
       <Head>

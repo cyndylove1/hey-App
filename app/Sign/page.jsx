@@ -79,8 +79,8 @@ import { useRouter } from 'next/navigation'
             }if(res.status === 200) {
                 setError("")
                 router.push("/form");
-                // const form =e.target
-                // form.reset()
+                const form =e.target
+                form.reset()
                 
             }
             
@@ -139,7 +139,7 @@ import { useRouter } from 'next/navigation'
 
                         <button  type='submit' className="register">Register</button>
 
-                        <p>{error && error}</p>
+                        <p className='err'>{error && error}</p>
                         
                         
                     </form>

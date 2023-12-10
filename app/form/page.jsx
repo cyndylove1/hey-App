@@ -65,7 +65,7 @@ import Link from 'next/link'
                        
 
                         <label htmlFor="email">Email</label> <br />
-                        <input type="text"   onChange={(e) => setEmail (e.target.value)} value={email} placeholder="enter your email" required/> <br/>
+                        <input type="text"onChange={(e) => setEmail (e.target.value)} value={email} placeholder="enter your email" required/> <br/>
                         <label htmlFor="Password">Password</label><br />
                         <div className='input'>
                             <div className='password'>
