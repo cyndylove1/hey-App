@@ -6,6 +6,59 @@ body{
     font-family: 'Roboto', sans-serif;
     
 }
+.dash{
+    /* height: 700px; */
+    /* margin-top: 10%; */
+    
+    /* background: url('../public/images/deposite.jpg'); */
+}
+.dashboard{
+    /* background: rgb(220, 147, 250); */
+    /* display: flex; */
+    /* padding-top: 10%; */
+
+
+}
+.dash{
+    background-color: rgb(220, 147, 250);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 6%;
+    margin-bottom: 30%;
+    height: 150px;
+    
+}
+.dash li{
+    list-style: none;
+    padding: 0 6%;
+    /* background-color: rgb(220, 147, 250); */
+    
+}
+.dash-btn button{
+    padding: 5px 20px;
+    margin-left: 20%;
+}
+.dash-text h1{
+    /* background: rgb(220, 147, 250); */
+    margin-top: 5%;
+
+}
+.dash{
+    /* display: flex; */
+}
+.dashed h1{
+    /* height: 150px; */
+    /* padding-top: 7%; */
+    /* text-align: center; */
+    /* background:  */
+    
+    
+    
+}
+.dashboard-content{
+    
+}
 header{
     background: rgb(107,6,156);
     background: linear-gradient(90deg, rgba(107,6,156,1) 0%, rgba(11,2,17,1) 65%);
@@ -686,6 +739,7 @@ form a {
     
 
 }
+
 /* sign-up section */
 .Sign-up{
     background-color: whitesmoke;
@@ -716,12 +770,12 @@ form a {
     justify-content: space-between;
 }
 .err{
-    display: none;
-    background-color: red;
-    overflow: hidden;
-    border-radius: 5px;
-    color: var(--white-color);
-    padding: 5px 20px;
+    /* display: none; */
+    /* background-color: red; */
+    /* overflow: hidden; */
+    /* border-radius: 5px; */
+    color: red;
+    /* padding: 5px 20px; */
 }
 
 form .sign-input {

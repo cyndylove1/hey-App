@@ -14,10 +14,11 @@ import Link from 'next/link'
 
     const [email , setEmail] = useState("")
     const [password , setPassword] = useState("")
+    const [error , setError] = useState("")
 
     const router = useRouter()
 
-    const handleSubmit   = async (e) =>{
+    const handleSubmit  = async (e) =>{
         e.preventDefault();
 
 
@@ -26,10 +27,10 @@ import Link from 'next/link'
                 email,password ,redirect:false,
             })
             if (res.error){
-                message("invalid credentials")
+                setError("invalid credentials")
                 return;
             }
-            router.replace("Hero")
+            router.replace("Dashboard")
         } catch (error) {
             console.log(error)
             
@@ -60,7 +61,7 @@ import Link from 'next/link'
         <div className='form-section'> 
             <div className="form-page">
                 
-                <form action="" className="form" onClick={handleSubmit}>
+                <form action="" className="form" onSubmit={handleSubmit}>
                     <div className="form-title"><h4>HeyWallet-Login</h4></div>
                        
 
@@ -84,11 +85,11 @@ import Link from 'next/link'
                             <h6>Not a member?<Link href={"/Sign"}><span>Sign Up</span></Link></h6>
                             
                         
-                       <Link href={"/Sign"}>
+                       {/* <Link> */}
                             <button className="form-btn" type='submit'>Login</button>
-                       </Link>
+                       {/* </Link> */}
                         
-                        
+                        <p className='err'>{error}</p>
                         {/* <h6 className="forget-password">ForgetPassword?</h6> */}
                     </form> 
             </div>

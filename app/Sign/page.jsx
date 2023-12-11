@@ -4,6 +4,7 @@ import '../globals.css'
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 
+
  export default function Sign (){
     const [error, setError] = useState("")
     const router = useRouter()
@@ -78,9 +79,9 @@ import { useRouter } from 'next/navigation'
                 setError("Email already Exit")
             }if(res.status === 200) {
                 setError("")
+                const form = e.target
+                form.reset();
                 router.push("/form");
-                const form =e.target
-                form.reset()
                 
             }
             

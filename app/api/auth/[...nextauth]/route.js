@@ -4,39 +4,40 @@ import connectDB from "../../../../utils/mongodb"
 import User from '../../../../models/user' 
 import bcrypt from "bcryptjs"
 
-const authOptions = {
+export const authOptions = {
     providers: [
         CredentialsProvider({
-            id: "credentials",
-            name: "Credentials",
-            credential:{
-                email:{ label: "Email",  type:"text" },
-                password:{ label: "Password",  type:"password" }
+            name: "credentials",
+            credential:{},
+                
 
 
-            },
+           
 
-            async authorize(credential) {
-                await connectDB()
-                const {email, password} = credential
+            async authorize(credentials) {
+                // const user = { id: "1"}
+                // return user;
+                
+                
+                const {email, password} = credentials
 
                 try {
+                    await connectDB()
                     
                     const user = await User.findOne({email})
 
-                    if(user){
-                        const passwordMatch = await bcrypt.compare(password, user.password)
+                    if(!user){
+                        return null; 
+                    }  
+                    const passwordMatch = await bcrypt.compare(password, user.password)
 
 
-                        if(passwordMatch){
-                            return user;
-                        }
-                           
-
-                        
-                    }                  
+                        if(!passwordMatch){
+                            return null;
+                        }  
+                        return user;              
                     } catch (error) {
-                        throw new Error(error);
+                        console.log("Error: ", error);
                         
                     }
                 
@@ -47,9 +48,9 @@ const authOptions = {
     session:{
         strategy:"jwt",
     },
-    secret:process.env.NEXT_SECRET,
+    secret: process.env.NEXT_SECRET,
     pages:{
-        signIn:"/About"
+        signIn:"/"
     },
 };
 const handler = NextAuth(authOptions)

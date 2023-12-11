@@ -9,6 +9,7 @@ import Testimonial from './Testimonial/page'
 import Cta from './Cta/page'
 // import Footer from './footer/page' 
 import Mobile from './Mobile/page'
+// import Dashboard from './Dashboard/page'
 // import Form from './form/page'
 
 
@@ -26,6 +27,7 @@ export default function Home() {
       <Team/>
       <Testimonial/>
       <Cta/>
+      {/* <Dashboard/> */}
       {/* <Footer/> */}
        
     </main>
