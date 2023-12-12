@@ -15,29 +15,14 @@ export default function Dashboard() {
         <div>
             <div className="dashboard">
                 <div className='dash'>
-                    {session ?(
-                        <>
-                         <li>user</li>
-                        <li>user</li>
-                    {/* <div className='dashed'>
-                        <button className='dash-btn'>LogOut</button>
+                
 
-                    </div> */}
-
-                        </>
-                    ):(
-                        <>
-                        {session.user?.email}
-
-                        <div className='dashed'>
-                            <button className='dash-btn' onClick={()=>(
-                                signOut()
-                            )}>LogOut</button>
-
-                     </div>
+                        {/* <div className='dashed'>
                         
-                        </>
-                    )}
+                        </div> */}
+                        
+                    
+                    
                    
                     
                    
