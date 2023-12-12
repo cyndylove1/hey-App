@@ -15,14 +15,7 @@ import { PageWrapper } from '../page-wrapper';
 
 
 export default function Team () {
-    // const sr = ScrollReveal ({
-    //     distance: '60px',
-    //     duration: 2000,
-    //     reset: true
-    
-    //  })
-    //  sr.reveal('.team-container h2,.team-text',{delay:350, origin:'bottom'})
-     
+   
     
     return(
         <div>
