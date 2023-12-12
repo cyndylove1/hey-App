@@ -31,20 +31,21 @@ body{
 }
 .dash li{
     list-style: none;
-    padding: 0 6%;
+    padding: 0 4%;
     /* background-color: rgb(220, 147, 250); */
     
 }
-.dash-btn button{
-    padding: 5px 20px;
-    margin-left: 20%;
+.dash-btn{
+    padding: 5px 10px;
+    margin-right: 30%;
 }
 .dash-text h1{
     /* background: rgb(220, 147, 250); */
     margin-top: 5%;
 
 }
-.dash{
+.dashed{
+    margin:7%;
     /* display: flex; */
 }
 .dashed h1{
