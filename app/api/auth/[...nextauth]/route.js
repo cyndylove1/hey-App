@@ -7,9 +7,12 @@ import bcrypt from "bcryptjs"
 export const authOptions = {
     providers: [
         CredentialsProvider({
-            name: "credentials",
-            credential:{},
-                
+            name: "Credentials",
+            credentials:{
+                email: { label: "Email", type: "text" },
+                password: { label: "Password", type: "password" }
+            },
+        
 
 
            
