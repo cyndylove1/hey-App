@@ -13,10 +13,6 @@ export const authOptions = {
                 // password: { label: "Password", type: "password" }
             },
         
-
-
-           
-
             async authorize(credentials) {
                 // const user = { id: "1"}
                 // return user;
