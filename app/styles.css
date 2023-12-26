@@ -750,7 +750,7 @@ form a {
 
 }
 .member{
-    padding: 20px 13%;
+    padding: 20px 15%;
 }
 .member a{
     text-decoration: none;
@@ -2235,6 +2235,7 @@ form .address:hover{
         height: 120vh;
         
     }
+    
     form .sign-input {
         width: 38%;  
     }
