@@ -252,13 +252,14 @@ header{
 .icon{
     background-color: rgba(107,6,156,1) ;
     color: var(--white-color);
-    height: 40px;
+    height: 35px;
     width: 40px;
     border-radius: 2px;
-    padding-left: 4px;
-    margin-right: 10px;
+    padding: 0 4px;
+    margin-right: 15px;
 
 }
+
 .about-info{
     display: flex;
     width: 80%;
@@ -1396,7 +1397,7 @@ form .address:hover{
 
     /* sign up section begins here */
     .Sign-up{
-        height: 180vh;
+        height: 290vh;
 
     }
     
@@ -1703,7 +1704,7 @@ form .address:hover{
 
     /* sign up section begins here */
     .Sign-up{
-        height: 180vh;
+        height: 230vh;
 
     }
     .Sign{
@@ -1891,7 +1892,7 @@ form .address:hover{
          grid-template-columns: repeat(2, 1fr); 
     }
     .img4{
-        height: 100px;
+        height: 80px;
         width: 34%;
         border-radius: 50%;
         border: 3px solid var(--white-color);
@@ -1975,7 +1976,7 @@ form .address:hover{
         
         width: 75%;
         margin-left: 10%;
-        margin-top: 20%;
+        margin-top: 25%;
         padding: 0 3%;
     }
     .form input{
@@ -1989,7 +1990,7 @@ form .address:hover{
     }
     .form-page{
         width: 100%;
-        height: 90vh;
+        height: 130vh;
     }
     .form-title h4{
         font-size: 35px;
@@ -2001,7 +2002,7 @@ form .address:hover{
 
     /* sign up section begins here */
     .Sign-up{
-        height: 130vh;
+        height: 230vh;
     }
 
     .Sign{
