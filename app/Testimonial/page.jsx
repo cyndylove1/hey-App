@@ -34,7 +34,7 @@ export default function Testimonial(){
                         slidesPerView : 2,
                         spaceBetween: 10
                     },
-                    1024:  {
+                    900:  {
                         slidesPerView : 3,
                         spaceBetween: 10
                     },
