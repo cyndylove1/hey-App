@@ -1628,9 +1628,12 @@ form .address:hover{
     /* testimonial section begins here  */
 
     .testimonial-text{
-        padding-top: 25%;
+        padding-top: 35%;
         
     }
+    .testimonial-info{
+        height: 400px;
+    } 
     
     /* testimonial section ends here  */
 
