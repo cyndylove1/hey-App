@@ -85,12 +85,12 @@ import Link from 'next/link'
                             <h6>Not a member?<Link href={"/Sign"}><span>Sign Up</span></Link></h6>
                             
                         
-                       {/* <Link> */}
+                       
                             <button className="form-btn" type='submit'>Login</button>
-                       {/* </Link> */}
+                       
                         
                         <p className='err'>{error}</p>
-                        {/* <h6 className="forget-password">ForgetPassword?</h6> */}
+                        
                     </form> 
             </div>
         </div>
