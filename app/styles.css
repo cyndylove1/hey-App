@@ -47,9 +47,6 @@ header{
 }
 
 
-
-
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -1231,14 +1228,18 @@ form .address:hover{
     
      /* navbar section begins here */
      .mobile{
+        font-size: 27px;
         display: block;
         cursor: pointer;
         margin-right: 20px;
         padding-top: -20px;
      }
-     /* .logo h2{
-        display: none;
-     } */
+     .fa{
+        font-size: 30px;
+
+
+     }
+    
      
      .logo h2 {
         /* display: flex; */
@@ -1463,6 +1464,7 @@ form .address:hover{
 
 
     /* footer section begins here */
+    
     .logo2{
         width: 90%;
     }
@@ -1473,7 +1475,7 @@ form .address:hover{
         flex-direction: column;
     }
     .logo2{
-        margin-left: 15px;
+        margin-left: 5px;
     }
     .footer-content{
         margin-left: 15px;
@@ -1489,6 +1491,7 @@ form .address:hover{
     .social-footer h5:hover{
         transform: none;
     }
+
     /* footer section ends here */
 
 
@@ -1947,7 +1950,7 @@ form .address:hover{
      }
      
      .logo h2 {
-        margin-right: 180px;
+        margin-right: 370px;
         padding-top: -10px;
         
      }
