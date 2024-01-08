@@ -25,16 +25,29 @@ header{
     transition: 0.5s ease;
     padding-top: 20px;
     
-
-
 }
 
 
 .fa{
     font-size: 40px;
-    margin-right: 6px;
+    /* margin-right: 6px; */
     color :  rgb(220, 147, 250)
 }
+
+.logo{
+    margin-right: 51.5px ;
+}
+
+.logo h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--white-color);
+    
+    
+}
+
+
+
 
 
 .navbar {
@@ -49,10 +62,7 @@ header{
     padding-top: 20px;
     text-decoration: none;
     list-style: none;
-    /* margin-left: 8%; */
-    
-     
-    
+  
 }
 .navbar ul li {
     text-decoration: none;
@@ -86,14 +96,7 @@ header{
     color: #000;
 }
 
-.logo h2{
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--white-color);
-    margin-left: 20px;
-    
-    
-}
+
 .mobile{
     display: none;
     color: white;
@@ -102,6 +105,7 @@ header{
 /* navbar section ends here */
 
 
+/* dashboard-page begins here */
 .dash{
     background-color: rgb(220, 147, 250);
     display: flex;
@@ -131,7 +135,7 @@ header{
     margin:7%;
     /* display: flex; */
 }
-
+/* dashboard-page ends here */
 
 
 
@@ -850,9 +854,7 @@ form .address:hover{
     padding-top: -20px;
     
  }
- .logo{
-    
- }
+ 
  .navbar ul{
     display: flex;
     align-items: flex-start;
@@ -1234,8 +1236,12 @@ form .address:hover{
         margin-right: 20px;
         padding-top: -20px;
      }
+     /* .logo h2{
+        display: none;
+     } */
      
      .logo h2 {
+        /* display: flex; */
         margin-right: 100px;
         padding-top: -10px;
         

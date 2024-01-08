@@ -62,6 +62,10 @@ export default function Navbar() {
                  <h2><span className='fa'><FaGoogleWallet/></span>HEYWALLET</h2>
 
             </div>
+             {/* <div className="logo3">
+                 <h2><span className='fa2'><FaGoogleWallet/></span>HEYWALLET</h2>
+
+            </div> */}
 
 
             <nav className="navbar">
