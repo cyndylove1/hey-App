@@ -3,11 +3,43 @@ import '../globals.css'
 import '../styles.css'
 import {FaGoogleWallet} from 'react-icons/fa6'
 import Link from 'next/link';
- import { useState } from 'react' 
+ import { useState } from 'react'
+ import { FaBarsStaggered } from "react-icons/fa6"; 
+ import { LiaTimesSolid } from "react-icons/lia"
+
  
  
 
 export default function Navbar() {
+    
+   
+    const [menu,setMenu] = useState("hidden")
+    const [bar,setBar] = useState(FaBarsStaggered)
+    const [clicked,setClicked] = useState(false)
+
+    const handleClick = ()=>{
+        if(menu === "hidden"){
+            setBar(LiaTimesSolid)
+            setMenu(FaBarsStaggered)
+            setClicked(!clicked)
+            
+            
+        
+        }else{
+            setBar(FaBarsStaggered)
+            setMenu("hidden")
+            setClicked(!clicked)
+           
+        }
+
+      
+
+        
+    }
+    
+
+
+
     // const  [color, setColor] = useState(false)
     //  const changeColor = () =>{
     //     if(window.scrollY >= 90){
@@ -33,10 +65,8 @@ export default function Navbar() {
 
 
             <nav className="navbar">
-                <ul>
-                    
-                    
-                    
+                <ul className={clicked ? "navbar ul active" : "navbar ul"}>
+
                     <Link style={{textDecoration: 'none'}}href="/"><li>Home</li></Link>
                     <Link style={{textDecoration: 'none'}} href="/About"><li>About</li></Link>
                     <Link  style={{textDecoration: 'none'}}href="/service"><li>Services</li></Link>
@@ -50,11 +80,26 @@ export default function Navbar() {
                     <Link href="/form">
                         <button className='btn'>Login</button>
                     </Link>
+
+
+                    
                   
+                
                     
                 </ul>
+                <div className="mobile" onClick={handleClick}>
+                        {bar} 
+                        {/* {color} */}
+
+                        {/* <div className="bar"><FaBarsStaggered/></div> */}
+                        {/* <div className="close"><LiaTimesSolid/></div> */}
+                    </div>
+                
+            
 
             </nav>
+
+
 
 
 

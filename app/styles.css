@@ -6,19 +6,102 @@ body{
     font-family: 'Roboto', sans-serif;
     
 }
-.dash{
-    /* height: 700px; */
-    /* margin-top: 10%; */
+
+/* navbar section begins here */
+
+header{
+    background: rgb(107,6,156);
+    background: linear-gradient(90deg, rgba(107,6,156,1) 0%, rgba(11,2,17,1) 65%);
+    height: 70px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.5s;
+    z-index: 1000;
+    transition: 0.5s ease;
+    padding-top: 20px;
     
-    /* background: url('../public/images/deposite.jpg'); */
-}
-.dashboard{
-    /* background: rgb(220, 147, 250); */
-    /* display: flex; */
-    /* padding-top: 10%; */
 
 
 }
+
+
+.fa{
+    font-size: 40px;
+    margin-right: 6px;
+    color :  rgb(220, 147, 250)
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+      
+}
+
+.navbar ul  {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    text-decoration: none;
+    list-style: none;
+    /* margin-left: 8%; */
+    
+     
+    
+}
+.navbar ul li {
+    text-decoration: none;
+    margin: 0 20px;
+    color: var(--white-color);
+    font-weight: 700;
+}
+.navbar ul li:hover{
+    color:rgb(231, 190, 249);
+    
+} 
+.bar{
+    color: white;
+    font-size: 30px;
+}
+.close{
+    color: rgb(207, 105, 248);
+    font-size: 40px;
+}
+.btn{
+    color: var(--white-color);
+    font-weight: 700;
+    background-color: rgb(220, 147, 250);
+    padding: 4px 20px;
+    transition: 0.4s;
+    
+
+}
+.btn:hover{
+    background-color: rgb(231, 190, 249);
+    color: #000;
+}
+
+.logo h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-left: 20px;
+    
+    
+}
+.mobile{
+    display: none;
+    color: white;
+    font-size: 32px;
+}
+/* navbar section ends here */
+
+
 .dash{
     background-color: rgb(220, 147, 250);
     display: flex;
@@ -48,38 +131,11 @@ body{
     margin:7%;
     /* display: flex; */
 }
-.dashed h1{
-    /* height: 150px; */
-    /* padding-top: 7%; */
-    /* text-align: center; */
-    /* background:  */
-    
-    
-    
-}
-.dashboard-content{
-    
-}
-header{
-    background: rgb(107,6,156);
-    background: linear-gradient(90deg, rgba(107,6,156,1) 0%, rgba(11,2,17,1) 65%);
-    height: 70px;
-    position: fixed;
-    left: 0;
-    right: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    transition: 0.5s;
-    z-index: 1000;
-    transition: 0.5s ease;
-    padding-top: 20px;
-    
 
 
-}
 
+
+/* hero section begins here */
 
 .main{
     height: 800px;
@@ -112,62 +168,7 @@ header{
 }
 
 
-.fa{
-    font-size: 40px;
-    margin-right: 6px;
-    color :  rgb(220, 147, 250)
-}
 
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-      
-}
-
-.navbar ul  {
-    display: flex;
-    align-items: center;
-    padding-top: 20px;
-    text-decoration: none;
-    list-style: none;
-    margin-left: 8%;
-    
-     
-    
-}
-.navbar ul li {
-    text-decoration: none;
-    margin: 0 20px;
-    color: var(--white-color);
-    font-weight: 700;
-}
-.navbar ul li:hover{
-    color:rgb(231, 190, 249);
-    
-} 
-.btn{
-    color: var(--white-color);
-    font-weight: 700;
-    background-color: rgb(220, 147, 250);
-    padding: 4px 20px;
-    transition: 0.4s;
-    
-
-}
-.btn:hover{
-    background-color: rgb(231, 190, 249);
-    color: #000;
-}
-
-.logo h2{
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--white-color);
-    margin-left: 20px;
-    
-    
-}
 .hero-content{
     display: flex;
     justify-content: space-around;
@@ -214,6 +215,7 @@ header{
     rotate: 0deg;
     
 }
+/* hero section ends here */
 
 
 
@@ -833,21 +835,81 @@ form .address:hover{
 /* mobile css */
 @media screen and (max-width:349px) {
    /* Navbar section begins here */
-    .logo{
-        display: none;
-    }
+   .mobile{
+    display: block;
+    font-size: 25px;
+    align-items: center;
+    cursor: pointer;
+    /* margin-right: 5px; */
+    padding-top: 10px;
+ }
+ 
+ .logo h2 {
+    margin: 0;
+    font-size: 20px;
+    padding-top: -20px;
+    
+ }
+ .logo{
+    
+ }
+ .navbar ul{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 70px;
+    right:-200px;
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(207, 105, 248);
+    padding: 40px 20px;
+    flex-direction: column;   
+    
+}
+.fa{
+    padding-top: -20px;
+    /* font-size: 10px; */
+    /* margin-right: 20px; */
+}
+
+
+
+.navbar ul li{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 25px;
+    padding: 10px 0px;
+    transition: 0.4s;
+   
+
+}
+.navbar ul li:hover{
+    color: #000;
+
+}
+   
+.navbar ul.active{
+    right: 0px;
+}
+.btn{
+    color: #000;
+    font-size: 25px;
+    background-color: var(--white-color);
+    padding: 10px 50px;
+}
+.btn:hover{
+    background-color: black;
+    color: var(--white-color);
+}
+ 
+ 
     /* Navbar section ends here */
 
 
 
     /* hero section begins here */
-    .navbar{
-        display: none;
-    }
-    .mobile{
-        display: flex;
-       
-    }
+    
     .main{
         height: 1100px;
 
@@ -1166,19 +1228,67 @@ form .address:hover{
  @media  screen and (min-width: 350px) and (max-width:450px){
     
      /* navbar section begins here */
-     
-     .logo{
-        display: none;
+     .mobile{
+        display: block;
+        cursor: pointer;
+        margin-right: 20px;
+        padding-top: -20px;
      }
+     
+     .logo h2 {
+        margin-right: 150px;
+        padding-top: -10px;
+        
+     }
+     .navbar ul{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 70px;
+        right:-300px;
+        width: 300px;
+        height: 100vh;
+        background-color: rgb(207, 105, 248);
+        padding: 40px 20px;
+        flex-direction: column;   
+        
+    }
+    
+    
+    .navbar ul li{
+        display: block;
+        margin-bottom: 30px;
+        font-size: 25px;
+        padding: 10px 0px;
+        transition: 0.4s;
+       
 
+    }
+    .navbar ul li:hover{
+        color: #000;
 
+    }
+       
+    .navbar ul.active{
+        right: 0px;
+    }
+    .btn{
+        color: #000;
+        font-size: 25px;
+        background-color: var(--white-color);
+        padding: 10px 100px;
+    }
+    .btn:hover{
+        background-color: black;
+        color: var(--white-color);
+    }
+     
+     
      /* navbar section ends here */
     
 
     /* hero section begins here*/
-    .navbar{
-        display: none;
-    }
     .main{
         height: 1100px;
 
@@ -1463,15 +1573,64 @@ form .address:hover{
  @media screen and (min-width: 451px) and (max-width:580px){
 
     /* Navbar section begins here */
-    .logo{
-        display: none;
-    }
-    .navbar{
-        display: none;
-    }
     .mobile{
-        display: none;
+        display: block;
+        cursor: pointer;
+        margin-right: 20px;
+        padding-top: -20px;
+     }
+     
+     .logo h2 {
+        margin-right: 180px;
+        padding-top: -10px;
+        
+     }
+     .navbar ul{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 70px;
+        right:-300px;
+        width: 300px;
+        height: 100vh;
+        background-color: rgb(207, 105, 248);
+        padding: 40px 20px;
+        flex-direction: column;   
+        
     }
+    
+    
+    .navbar ul li{
+        display: block;
+        margin-bottom: 30px;
+        font-size: 25px;
+        padding: 10px 0px;
+        transition: 0.4s;
+       
+
+    }
+    .navbar ul li:hover{
+        color: #000;
+
+    }
+       
+    .navbar ul.active{
+        right: 0px;
+    }
+    .btn{
+        color: #000;
+        font-size: 25px;
+        background-color: var(--white-color);
+        padding: 10px 100px;
+    }
+    .btn:hover{
+        background-color: black;
+        color: var(--white-color);
+    }
+     
+     
+    
      /* Navbar section ends here */
 
 
@@ -1774,15 +1933,63 @@ form .address:hover{
  @media screen and (min-width: 581px) and ( max-width: 1000px){
 
     /* Navbar section begins here */
-    .logo{
-        display: none;
-    }
     .mobile{
-        display: none;
+        display: block;
+        cursor: pointer;
+        margin-right: 20px;
+        padding-top: -20px;
+     }
+     
+     .logo h2 {
+        margin-right: 180px;
+        padding-top: -10px;
+        
+     }
+     .navbar ul{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 70px;
+        right:-300px;
+        width: 300px;
+        height: 100vh;
+        background-color: rgb(207, 105, 248);
+        padding: 40px 20px;
+        flex-direction: column;   
+        
     }
-    .navbar{
-        display: none;
+    
+    
+    .navbar ul li{
+        display: block;
+        margin-bottom: 30px;
+        font-size: 25px;
+        padding: 10px 0px;
+        transition: 0.4s;
+       
+
     }
+    .navbar ul li:hover{
+        color: #000;
+
+    }
+       
+    .navbar ul.active{
+        right: 0px;
+    }
+    .btn{
+        color: #000;
+        font-size: 25px;
+        background-color: var(--white-color);
+        padding: 10px 100px;
+    }
+    .btn:hover{
+        background-color: black;
+        color: var(--white-color);
+    }
+     
+    
     /* Navbar section begins here */
 
 
@@ -2092,8 +2299,7 @@ form .address:hover{
     /* Navbar section begins here */
     .navbar {
         padding-top: 26px;
-        margin-right: 10%;
-    
+        /* margin-right: 10%; */
     }
     .mobile{
         display: none;
