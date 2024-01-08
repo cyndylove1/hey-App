@@ -859,8 +859,8 @@ form .address:hover{
     justify-content: flex-start;
     position: fixed;
     top: 70px;
-    right:-200px;
-    width: 200px;
+    right:-150px;
+    width: 150px;
     height: 100vh;
     background-color: rgb(207, 105, 248);
     padding: 40px 20px;
@@ -896,7 +896,7 @@ form .address:hover{
     color: #000;
     font-size: 15px;
     background-color: var(--white-color);
-    padding: 5px 50px;
+    padding: 5px 40px;
 }
 .btn:hover{
     background-color: black;
@@ -1277,7 +1277,7 @@ form .address:hover{
         color: #000;
         font-size: 15px;
         background-color: var(--white-color);
-        padding: 5px 40px;
+        padding: 5px 60px;
     }
     .btn:hover{
         background-color: black;
@@ -1603,8 +1603,8 @@ form .address:hover{
     
     .navbar ul li{
         display: block;
-        margin-bottom: 30px;
-        font-size: 25px;
+        margin-bottom: 20px;
+        font-size: 15px;
         padding: 10px 0px;
         transition: 0.4s;
        
@@ -1620,9 +1620,9 @@ form .address:hover{
     }
     .btn{
         color: #000;
-        font-size: 25px;
+        font-size: 20px;
         background-color: var(--white-color);
-        padding: 10px 100px;
+        padding: 5px 100px;
     }
     .btn:hover{
         background-color: black;
