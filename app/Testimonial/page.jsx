@@ -10,7 +10,9 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
 
-export default function Testimonial(){
+export default async  function Testimonial(){
+    await new Promise(resolve => setTimeout(resolve, 3000))
+
    
      
     return(

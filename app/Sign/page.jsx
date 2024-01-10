@@ -5,7 +5,9 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 
 
- export default function Sign (){
+ export default async function Sign (){
+    await new Promise(resolve => setTimeout(resolve, 3000))
+
     const [error, setError] = useState("")
     const router = useRouter()
 

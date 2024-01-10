@@ -15,51 +15,26 @@ import { motion } from 'framer-motion';
 
 
 
-const container = {
-    show:{
-        transition:{
-            staggerChildren:0.35,
-        },
-    },
-        
-};
 
-const item = {
-    hidden:{
-        opacity:0,
-        y:200,
 
-    },
-    show:{
-        opacity:1,
-        y: 0,
-        transition:{
-            ease:[.6, .01, -.05, .95],
-            duration:1.6,
+    // const res = await fetch('https://localhost:3000/About',{
+    //     next: {
+    //         revalidate: 0
+    //     }
 
-        },
-    },
-    exit:{
-        opacity:0,
-        y:-200,
-        transition:{
-            ease: "easeInOut",
-            duration:0.8,
-        }
-    }
-}
+    // })
+    // return res.json()
 
- export default function About (variants) {
+
+ export default  async function About () {
+    await new Promise(resolve => setTimeout(resolve, 3000))
+
+    // const about = await About()
    
     
     return(
         <div>
-            <div className="about"
-                    
-                    variant={container}
-                    initial="hidden"
-                    animate = "show" 
-                    exit="exit">
+            <div className="about">
                     
                     
                 <div className="about-us">
@@ -68,11 +43,10 @@ const item = {
                 </div>
                 <div className="about-container">
 
-                    <motion.div className="about-img"
-                        variants={variants}>
+                    <div className="about-img">
                             
-                        <Image  variants={item} src={about} alt="heywallet image"  className="img5"/>
-                    </motion.div>
+                        <Image src={about} alt="heywallet image"  className="img5"/>
+                    </div>
                     
                 <div className="about-section">
                     <div className="about-text">

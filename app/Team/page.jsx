@@ -14,7 +14,9 @@ import { PageWrapper } from '../page-wrapper';
 // import ScrollReveal from 'scrollreveal';
 
 
-export default function Team () {
+export default async  function Team () {
+    await new Promise(resolve => setTimeout(resolve, 3000))
+
    
     
     return(
