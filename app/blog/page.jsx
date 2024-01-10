@@ -7,8 +7,8 @@ import '../styles.css'
 //  import ScrollReveal from 'scrollreveal'
 
 
- export default async function Blog () {
-    await new Promise(resolve => setTimeout(resolve, 3000))
+ export default function Blog () {
+    // await new Promise(resolve => setTimeout(resolve, 3000))
 
     // const sr = ScrollReveal ({
     //     distance: '60px',

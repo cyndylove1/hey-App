@@ -8,8 +8,8 @@ import icon3 from "@/public/images/s3.png"
 import { PageWrapper } from '../page-wrapper'
 
 
-export default async function Services () {
-    await new Promise(resolve => setTimeout(resolve, 3000))
+export default  function Services () {
+    // await new Promise(resolve => setTimeout(resolve, 3000))
 
      
     

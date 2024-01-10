@@ -10,8 +10,8 @@ import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 
 
- export default  async function Form(){
-    await new Promise(resolve => setTimeout(resolve, 3000))
+ export default function Form(){
+    // await new Promise(resolve => setTimeout(resolve, 3000))
 
 
     const [email , setEmail] = useState("")
