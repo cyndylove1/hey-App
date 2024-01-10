@@ -2036,8 +2036,8 @@ form .address:hover{
     
     .navbar ul li{
         display: block;
-        margin-bottom: 30px;
-        font-size: 25px;
+        /* margin-bottom: 30px; */
+        font-size: 20px;
         padding: 10px 0px;
         transition: 0.4s;
        
@@ -2053,9 +2053,9 @@ form .address:hover{
     }
     .btn{
         color: #000;
-        font-size: 25px;
+        font-size: 20px;
         background-color: var(--white-color);
-        padding: 10px 100px;
+        padding: 5px 100px;
     }
     .btn:hover{
         background-color: black;
@@ -2198,9 +2198,9 @@ form .address:hover{
 
     /* team section begins here */
     .team{
-        height: 950px;
+        height: 1200px;
         padding-top: 15%;
-        padding-bottom: 10%;
+        padding-bottom: 30%;
 
     }
     .team-info{
