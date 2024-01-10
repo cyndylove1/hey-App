@@ -2006,7 +2006,7 @@ form .address:hover{
     .mobile{
         display: block;
         cursor: pointer;
-        margin-right: 20px;
+        /* margin-right: 20px; */
         padding-top: -20px;
      }
      
