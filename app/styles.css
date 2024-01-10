@@ -859,6 +859,9 @@ form .address:hover{
     /* margin-right: 5px; */
     padding-top: 10px;
  }
+ .loader{
+    padding-top: 30%;
+ }
  
  .logo h2 {
     margin: 0;
@@ -1170,13 +1173,11 @@ form .address:hover{
        
     }
     .form-section{
-        padding-bottom: 300%;
+        /* padding-bottom: 300%; */
         height: 120vh;
     }
    
     .form-page{
-        /* margin-bottom: 200%; */
-        /* padding: 9% 0; */
         height: 120vh;
     }
     .form input{
@@ -1292,6 +1293,10 @@ form .address:hover{
         flex-direction: column;   
         
     }
+    .loader{
+        padding-top: 20%;
+     }
+     
     
     
     .navbar ul li{
@@ -1647,6 +1652,9 @@ form .address:hover{
         padding: 40px 20px;
         flex-direction: column;   
         
+    }
+    .loader{
+        padding-top: 15%;
     }
     
     
@@ -2019,6 +2027,9 @@ form .address:hover{
         flex-direction: column;   
         
     }
+    .loader{
+        padding-top: 10%;
+    }
     
     
     .navbar ul li{
@@ -2196,7 +2207,7 @@ form .address:hover{
     }
     .img4{
         height: 80px;
-        width: 34%;
+        width: 28%;
         border-radius: 50%;
         border: 3px solid var(--white-color);
     }
@@ -2373,6 +2384,9 @@ form .address:hover{
     .navbar {
         padding-top: 26px;
         /* margin-right: 10%; */
+    }
+    .loader{
+        padding-top: 10%;
     }
     .mobile{
         display: none;
