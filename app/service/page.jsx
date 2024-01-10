@@ -5,17 +5,15 @@ import Image from "next/image"
 import icon1 from "@/public/images/s1.png"
 import icon2 from "@/public/images/s2.png"
 import icon3 from "@/public/images/s3.png"
-import { PageWrapper } from '../page-wrapper'
 
 
-export default  function Services () {
+export default function Services () {
     // await new Promise(resolve => setTimeout(resolve, 3000))
 
      
     
     return(
         <div>
-             <PageWrapper/>
             <div className="services">
                 
                 <div className="services-container">

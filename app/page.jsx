@@ -20,6 +20,7 @@ export default function Home() {
     <main>
       {/* <Navbar/> */}
       {/* <Mobile/> */}
+      
       <Hero/>
       <About/>
       <Services/>
