@@ -857,7 +857,7 @@ form .address:hover{
     font-size: 25px;
     align-items: center;
     cursor: pointer;
-    /* margin-right: 5px; */
+    margin-right: 5px;
     padding-top: 10px;
  }
  .loader{
@@ -866,9 +866,13 @@ form .address:hover{
  
  .logo h2 {
     margin: 0;
+    /* margin-right: 40px; */
     font-size: 20px;
     padding-top: -20px;
     
+ }
+ .logo{
+    width: 100%;
  }
  
  .navbar ul{
@@ -1277,7 +1281,7 @@ form .address:hover{
      
      .logo h2 {
         /* display: flex; */
-        margin-right: 100px;
+        margin-right: 80px;
         padding-top: -10px;
         
      }
@@ -1637,7 +1641,7 @@ form .address:hover{
      }
      
      .logo h2 {
-        margin-right: 180px;
+        margin-right: 160px;
         padding-top: -10px;
         
      }
@@ -2006,12 +2010,13 @@ form .address:hover{
     .mobile{
         display: block;
         cursor: pointer;
-        /* margin-right: 20px; */
+        margin-right: 20px;
         padding-top: -20px;
      }
      
+     
      .logo h2 {
-        margin-right: 370px;
+        margin-right: 310px;
         padding-top: -10px;
         
      }
