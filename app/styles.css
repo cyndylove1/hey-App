@@ -30,6 +30,7 @@ header{
     padding-top: 7%;
     font-size: 25px;
     font-weight: 700;
+    color: rgb(107,6,156);
 }
 
 
@@ -1842,7 +1843,7 @@ form .address:hover{
     }
     .img4{
         height: 100px;
-        width: 23%;
+        width: 30%;
         border-radius: 50%;
         border: 3px solid var(--white-color);
     }
@@ -2207,8 +2208,8 @@ form .address:hover{
          grid-template-columns: repeat(2, 1fr); 
     }
     .img4{
-        height: 80px;
-        width: 28%;
+        height: 90px;
+        width: 30%;
         border-radius: 50%;
         border: 3px solid var(--white-color);
     }

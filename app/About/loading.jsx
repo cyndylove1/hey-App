@@ -1,3 +1,6 @@
+'use client'
+import '../styles.css'
+
 export default function Loading() {
     // You can add any UI inside Loading, including a Skeleton.
     return(
