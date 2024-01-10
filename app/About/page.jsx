@@ -54,7 +54,7 @@ const item = {
     
     return(
         <div>
-            <motion.div className="about"
+            <div className="about"
                     
                     variant={container}
                     initial="hidden"
@@ -176,7 +176,7 @@ const item = {
 
                 </div>
                 
-            </motion.div>
+            </div>
             
                
         

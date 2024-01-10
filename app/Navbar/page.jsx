@@ -77,6 +77,7 @@ export default function Navbar() {
                     <Link  style={{textDecoration: 'none'}}href="/blog"><li>WhyUs</li></Link>
                     <Link style={{textDecoration: 'none'}} href="/Team"><li>Team</li></Link>
                     <Link style={{textDecoration: 'none'}} href="/Testimonial"><li>Testimonial</li></Link>
+                    <Link style={{textDecoration: 'none'}} href="/Dashboard"><li>dashboard</li></Link>
                         
                    
 

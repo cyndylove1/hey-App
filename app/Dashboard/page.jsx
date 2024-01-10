@@ -1,16 +1,16 @@
 'use client'
+import { getServerSession } from 'next-auth'
 import '../globals.css'
 import '../styles.css'
-import {signOut, useSession} from "next-auth/react"
+import { redirect } from 'next/navigation'
 
 
 
-export default function Dashboard() {
-    const {session} = useSession() 
-    // const session = await getServerSession()
-    // if(session){
-    //     redirect("/")
-    // }
+const Dashboard = async () => {
+    const session = await getServerSession();
+    if(!session){
+        redirect("/")
+    }
     return(
         <div>
             <div className="dashboard">
@@ -36,3 +36,4 @@ export default function Dashboard() {
         </div>
     )
 }
+export default Dashboard

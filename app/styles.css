@@ -26,6 +26,11 @@ header{
     padding-top: 20px;
     
 }
+.loader{
+    padding-top: 7%;
+    font-size: 25px;
+    font-weight: 700;
+}
 
 
 .fa{
@@ -221,6 +226,9 @@ header{
 
 
 /* about section */
+.about{
+    padding: 3% 0;
+}
 .about-container{
     display: flex;
     justify-content: space-around;
@@ -285,8 +293,8 @@ header{
 /* services section */
 .services{
     background-color: var(--smoke-color);
-    padding: 0 7%;
-    height: 500px
+    padding: 7% 7%;
+    height: 650px
 }
 .services-content{
     display: flex;
@@ -332,6 +340,9 @@ header{
 }
 
 /* blog section */
+.blog{
+    padding: 6% 0;
+}
 .main-container{
     display: flex;
     justify-content: space-between;
@@ -409,7 +420,9 @@ header{
 /* team section */
 
 .team{
-    height: 600px;
+    height: 650px;
+    padding-top: 5%;
+    padding-bottom: 6%;
     background: rgb(107,6,156);
     background: linear-gradient(90deg, rgba(107,6,156,1) 0%, rgba(11,2,17,1) 65%)
     
@@ -476,7 +489,8 @@ header{
 
 .testimonial-title h2{
     text-align: center;
-    padding-top: 3%;
+    padding-top: 10%;
+    padding-bottom: 5%;
     font-weight: 700;
 }
 .testimonial-text{
@@ -562,6 +576,7 @@ header{
 .footer-section{
     background-color: rgb(231, 190, 249);
     height: 350px;
+    /* margin-top: 2%; */
 
 }
 .footer-container{
@@ -936,6 +951,9 @@ form .address:hover{
 
 
     /* about section begins here */
+    .about{
+        padding-top: 45%;
+    }
     .about-container{
         flex-direction: column;
     }
@@ -993,6 +1011,7 @@ form .address:hover{
         padding-left: 10px;
     }
     .services{
+        padding-top: 35%;
         height: 1100px;
     }
     .services-content{
@@ -1005,6 +1024,9 @@ form .address:hover{
     
 
     /* blog section begins here */
+    .blog{
+        padding-top: 35%;
+    }
     .main-container{
         flex-direction: column;
         margin-right: 38%;
@@ -1050,6 +1072,7 @@ form .address:hover{
         grid-template-columns: repeat(1, 1fr);
     } 
     .team{
+        padding-top: 40%;
         height: 1400px;
 
     }
@@ -1066,8 +1089,10 @@ form .address:hover{
 
     /* testimonial section begins here */
 
+
     .testimonial-title h2{
         font-size: 20px;
+        padding-top: 40%;
     }
 
     .testimonial-text{
@@ -1139,13 +1164,19 @@ form .address:hover{
     
     .form{
         width: 100%;
-        margin-top: 55%;
+        /* margin-top: 65%; */
         padding:  0 3%;
-        margin: 30% 3%;
+        margin: 45% 3%;
        
+    }
+    .form-section{
+        padding-bottom: 300%;
+        height: 120vh;
     }
    
     .form-page{
+        /* margin-bottom: 200%; */
+        /* padding: 9% 0; */
         height: 120vh;
     }
     .form input{
@@ -1165,7 +1196,7 @@ form .address:hover{
 
     /* sign up section ends here */
     .Sign-up{
-        height: 220vh;
+        height: 200vh;
 
     }
 
@@ -1322,6 +1353,9 @@ form .address:hover{
 
     
     /* about section  begins here */
+    .about{
+        padding-top: 30%;
+    }
     .about-container{
         flex-direction: column;
     }
@@ -1377,6 +1411,7 @@ form .address:hover{
     
     .services{
         height: 1100px;
+        padding-top: 30%;
     }
     .services-content{
         flex-direction: column;
@@ -1388,6 +1423,9 @@ form .address:hover{
 
 
     /* blog section begins here */
+    .blog{
+        padding-top: 35%;
+    }
     .main-container{
         flex-direction: column;
         margin-right: 25%;
@@ -1427,6 +1465,7 @@ form .address:hover{
         grid-template-columns: repeat(1, 1fr);
     } 
     .team{
+        padding-top: 30%;
         height: 1400px;
 
     }
@@ -1441,12 +1480,13 @@ form .address:hover{
     }
     /* team section ends here */
 
-    testimonial-info{
+    .testimonial-info{
         height: 370px;
         
     }
-    testimonial-title h2{
-        margin-top: 10%;
+    .testimonial-title h2{
+        /* margin-top: 10%; */
+        padding-top: 35%;
     }
 
     /* cta section begins here */
@@ -1503,14 +1543,14 @@ form .address:hover{
         height: 500px;
         margin: 0 3%;
         /* margin-left: 10%; */
-        margin-top: 28%;
+        margin-top: 35%;
         padding: 0 3%;
         border-bottom: 3px solid rgb(220, 147, 250);
 
         
     }
     .form-page{
-        height: 150vh;
+        height: 100vh;
     }
     .form input{
         width: 100%;
@@ -1530,7 +1570,7 @@ form .address:hover{
 
     /* sign up section begins here */
     .Sign-up{
-        height: 250vh;
+        height: 170vh;
 
     }
     
@@ -1670,6 +1710,9 @@ form .address:hover{
 
 
     /* about section begins here*/
+    .about{
+        padding-top: 25%;
+    }
     .about-container{
         flex-direction: column;
     }
@@ -1727,6 +1770,7 @@ form .address:hover{
     
     .services{
         height: 1100px;
+        padding-top: 25%;
     }
     .services-content{
         flex-direction: column;
@@ -1738,6 +1782,9 @@ form .address:hover{
 
     
     /* blog section begins here */
+    .blog{
+        padding-top: 20%;
+    }
     .main-container{
         flex-direction: column;
         margin-right: 20%;
@@ -1777,6 +1824,7 @@ form .address:hover{
     /* team section begins here */
     .team{
         height: 1400px;
+        padding-top: 20%;
 
     }
     .team-info{
@@ -1802,6 +1850,9 @@ form .address:hover{
     .testimonial-info{
         height: 400px;
     } 
+    .testimonial-title h2{
+        padding-top: 25%;
+    }
     
     /* testimonial section ends here  */
 
@@ -1873,7 +1924,7 @@ form .address:hover{
         
     }
     .form-page{
-        height: 170vh;
+        height: 130vh;
     }
     .form input{
         width: 100%;
@@ -1894,7 +1945,7 @@ form .address:hover{
 
     /* sign up section begins here */
     .Sign-up{
-        height: 270vh;
+        height: 200vh;
 
     }
     .Sign{
@@ -2027,6 +2078,9 @@ form .address:hover{
 
 
     /* about section begins here*/
+    .about{
+        padding-top: 15%;
+    }
     .about-container{
         flex-direction: column;
     }
@@ -2082,6 +2136,7 @@ form .address:hover{
     
     .services{
         height: 1100px;
+        padding-top: 15%;
     }
     .services-content{
         flex-direction: column;
@@ -2094,6 +2149,9 @@ form .address:hover{
 
 
     /* blog section  here begins*/
+    .blog{
+        padding-top: 15%;
+    }
     .main-container{
         flex-direction: column;
         width: 70%;
@@ -2127,7 +2185,9 @@ form .address:hover{
 
     /* team section begins here */
     .team{
-        height: 850px;
+        height: 950px;
+        padding-top: 15%;
+        padding-bottom: 10%;
 
     }
     .team-info{
@@ -2141,6 +2201,14 @@ form .address:hover{
         border: 3px solid var(--white-color);
     }
     /* team section ends here */
+
+
+    /* testimonial section begins here */
+    .testimonial-title h2{
+        padding-top: 20%;
+    }
+    /* testimonial section ends here */
+    
 
 
     /* services section */
@@ -2234,7 +2302,7 @@ form .address:hover{
     }
     .form-page{
         width: 100%;
-        height: 160vh;
+        height: 70vh;
     }
     .form-title h4{
         font-size: 35px;
@@ -2246,7 +2314,7 @@ form .address:hover{
 
     /* sign up section begins here */
     .Sign-up{
-        height: 270vh;
+        height: 120vh;
     }
 
     .Sign{
@@ -2256,8 +2324,6 @@ form .address:hover{
     .title{
         display: flex;
         justify-content: space-between;
-        /* flex-direction: flex; */
-        /* padding-top: 10%; */
        
     }
     .member{
@@ -2268,10 +2334,8 @@ form .address:hover{
     
     .member h6{
         padding: 20px 0;
-        /* width: 120%; */
         font-size: 20px;
-        /* text-align: center; */
-        /* margin-left: 5%; */
+        
     }
     form .sign-input {
         margin-left: 5%;
@@ -2444,7 +2508,7 @@ form .address:hover{
         
     }
     .footer-content{
-        margin-left: 20px;
+        margin-right: 15px;
     }
     .quick-links{
         margin-left: 20px;
@@ -2477,7 +2541,7 @@ form .address:hover{
         width: 100%;
     }
     .form-page{
-        height: 150vh;
+        height: 130vh;
     }
     /* form section ends here  */
 
@@ -2486,6 +2550,7 @@ form .address:hover{
     /* sign up section begins here */
     .Sign-up{
         height: 160vh;
+        padding-top: 20%;
         
     }
     
