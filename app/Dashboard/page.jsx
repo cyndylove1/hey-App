@@ -1,4 +1,4 @@
-'use client'
+// 'use client'
 import { getServerSession } from 'next-auth'
 import '../globals.css'
 import '../styles.css'
@@ -14,6 +14,8 @@ const Dashboard = async () => {
         <div>
             <div className="dashboard">
                 <div className='dash'>
+                    
+
                 
 
                         {/* <div className='dashed'>
