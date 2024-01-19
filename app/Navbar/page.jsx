@@ -15,8 +15,8 @@ export default function Navbar() {
     const {session} = useSession()
     
    
-    const [menu,setMenu] = useState("hidden")
-    const [bar,setBar] = useState(FaBarsStaggered)
+    const [menu, setMenu] = useState("hidden")
+    const [bar, setBar] = useState(FaBarsStaggered)
     const [clicked,setClicked] = useState(false)
 
     const handleClick = ()=>{
