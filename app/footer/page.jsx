@@ -5,23 +5,16 @@ import {FaGoogleWallet} from 'react-icons/fa6'
 import {FaFacebookF} from "react-icons/fa6";
 import {FaTwitter} from "react-icons/fa6";
 import {FaLinkedinIn} from "react-icons/fa6";
-import {FaInstagram} from "react-icons/fa6"
-// import ScrollReveal from 'scrollreveal';
+import {FaInstagram} from "react-icons/fa6";
 
 
 export default function Footer (){
 
-    // const sr = ScrollReveal ({
-    //     distance: '60px',
-    //     duration: 2000,
-    //     reset: true
-    
-    //  })
-    //  sr.reveal('.footer-container',{delay:350, origin:'bottom'})
+   
     return(
         <div>
             <div className='footer-section'>
-                <div className='footer-container' data-aos="fade-left">
+                <div className='footer-container'>
                     <div className='logo2'>
                         <h2><span className='fa'><FaGoogleWallet/></span>HEYWALLET</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur <br /> adipisicing elit. Eum doloremque, dolorem <br /> assumenda labore animi aliquid?</p>

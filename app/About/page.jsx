@@ -43,14 +43,13 @@ import { motion } from 'framer-motion';
                 </div>
                 <div className="about-container">
 
-                    <div className="about-img" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="about-img">
                             
-                        <Image src={about} alt="heywallet image"  className="img5"/>
+                        <Image src={about} alt="heyWallet image"  className="img5"/>
                     </div>
                     
                 <div className="about-section">
-                    <div className="about-text" data-aos="fade-down" data-aos-easing="linear"
-                        data-aos-duration="1500">
+                    <div className="about-text">
                         <div className="about-info">
                             <div className="icon">
                                 <h2><TbBinaryTree2/></h2>
@@ -96,8 +95,7 @@ import { motion } from 'framer-motion';
                     </div>
                 </div>
                 <div className="about-section2">
-                    <div className="about-content" data-aos="fade-right" data-aos-offset="300"
-                        data-aos-easing="ease-in-sine">
+                    <div className="about-content">
                         <div className="about-info">
                             <div className="icon">
                                 <h2><TbAsterisk/></h2>

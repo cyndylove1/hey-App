@@ -94,7 +94,7 @@ import { useRouter } from 'next/navigation'
                 </div>
                
                 <div className="Sign-page">
-                    <form action="" className="Sign" onSubmit={handleSubmit} data-aos="fade-down">
+                    <form action="" className="Sign" onSubmit={handleSubmit}>
                        
                         <input type="text" placeholder='FirstName' className="sign-input" autoComplete='off' required/>
                         

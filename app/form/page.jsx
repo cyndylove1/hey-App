@@ -63,9 +63,7 @@ import Link from 'next/link'
         <div className='form-section'> 
             <div className="form-page">
                 
-                <form action="" className="form" onSubmit={handleSubmit} data-aos="flip-left"
-                            data-aos-easing="ease-out-cubic"
-                            data-aos-duration="2000">
+                <form action="" className="form" onSubmit={handleSubmit} >
                     <div className="form-title"><h4>HeyWallet-Login</h4></div>
                        
 
