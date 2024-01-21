@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation'
 
 
  export default function Sign (){
-
+    // await new Promise(resolve => setTimeout(resolve, 3000))
 
     const [error, setError] = useState("")
     const router = useRouter()
@@ -94,33 +94,33 @@ import { useRouter } from 'next/navigation'
                 </div>
                
                 <div className="Sign-page">
-                    <form action="" className="Sign" onSubmit={handleSubmit}>
+                    <form action="" className="Sign" onSubmit={handleSubmit} data-aos="fade-down">
                        
-                        <input type="text" placeholder='FirstName' className="sign-input" autoComplete='off' required data-aos="fade-right"/>
+                        <input type="text" placeholder='FirstName' className="sign-input" autoComplete='off' required/>
                         
-                        <input type="text"  placeholder='LastName' className="sign-input" autoComplete='off' required  data-aos="fade-up"/> <br/>
+                        <input type="text"  placeholder='LastName' className="sign-input" autoComplete='off' required/> <br />
                        
-                        <input type="text" placeholder='Email' className="sign-input" autoComplete='off' required data-aos="fade-left"/>
+                        <input type="text" placeholder='Email' className="sign-input" autoComplete='off' required/>
                         
-                        <input type="text" placeholder='Mobile' className="sign-input" autoComplete='off'  required data-aos="fade-right"/><br />
+                        <input type="text" placeholder='Mobile' className="sign-input" autoComplete='off'  required/><br />
 
                         
                         
-                        <select className="sign-input" placeholder='IdentificationType' type="Selection" autoComplete='off' required data-aos="fade-up">
+                        <select className="sign-input" placeholder='IdentificationType' type="Selection" autoComplete='off' required>
                             <option value="National ID">National ID</option>
                             <option value="Driver's Lisence">Driver's Lisence</option>
                         </select>
 
                         
-                        <input type="text" placeholder='IdentificationNumber' className="sign-input" autoComplete='off' required data-aos="fade-left" /> 
+                        <input type="text" placeholder='IdentificationNumber' className="sign-input" autoComplete='off' required /> 
                         
                         <input type="text" placeholder='Address' className="address"  autoComplete='off' required/>  <br/>
                         
-                        <input type="password" placeholder='Password' className="sign-input" autoComplete='off' required data-aos="fade-right"/>
+                        <input type="password" placeholder='Password' className="sign-input" autoComplete='off' required/>
                        
-                        <input type="password" placeholder='ConfirmPassword' className="sign-input"  autoComplete='off' required data-aos="fade-left"/> 
+                        <input type="password" placeholder='ConfirmPassword' className="sign-input"  autoComplete='off' required/> 
 
-                        <button  type='submit' className="register" data-aos="flip-right">Register</button>
+                        <button  type='submit' className="register">Register</button>
 
                         <p className='err'>{error && error}</p>
                         

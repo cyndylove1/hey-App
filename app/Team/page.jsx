@@ -29,11 +29,11 @@ export default function Team () {
                 
                     <h2 data-aos="fade-up">Our Team</h2>
                 </div>
-                <div className="team-content">
+                <div className="team-content"  data-aos= "zoom-in">
                 
                     <div className="team-info">
                     {/* <PageWrapper/> */}
-                        <div className="team-text" data-aos="fade-right">
+                        <div className="team-text">
                             
                             <Image src={team1} className="img4"/>
                             <h4>Joseph Brown</h4>
@@ -47,7 +47,7 @@ export default function Team () {
                             </div>
 
                         </div>
-                        <div className="team-text" data-aos="fade-left">
+                        <div className="team-text">
                             <Image src={team2} className="img4"/>
                             <h4>Nancy White</h4>
                             <h5>marketing Head</h5>
@@ -61,7 +61,7 @@ export default function Team () {
                             
 
                         </div>
-                        <div className="team-text" data-aos="fade-up-right">
+                        <div className="team-text">
                             <Image src={team3} className="img4"/>
                             <h4>Earl Martinez</h4>
                             <h5>marketing Head</h5>
@@ -75,7 +75,7 @@ export default function Team () {
                             
 
                         </div>
-                        <div className="team-text" data-aos="fade-up">
+                        <div className="team-text">
                             <Image src={team4} className="img4"/>
                             <h4>Josephine Allard</h4>
                             <h5>marketing Head</h5>
