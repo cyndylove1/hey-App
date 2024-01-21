@@ -29,7 +29,7 @@ export default function Team () {
                 
                     <h2 data-aos="fade-up">Our Team</h2>
                 </div>
-                <div className="team-content"  data-aos= "zoom-in">
+                <div className="team-content"  data-aos="zoom-in">
                 
                     <div className="team-info">
                     {/* <PageWrapper/> */}
