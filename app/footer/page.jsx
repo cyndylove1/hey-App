@@ -21,7 +21,7 @@ export default function Footer (){
     return(
         <div>
             <div className='footer-section'>
-                <div className='footer-container' data-aos="fade-down">
+                <div className='footer-container' data-aos="fade-left">
                     <div className='logo2'>
                         <h2><span className='fa'><FaGoogleWallet/></span>HEYWALLET</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur <br /> adipisicing elit. Eum doloremque, dolorem <br /> assumenda labore animi aliquid?</p>
