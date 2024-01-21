@@ -22,7 +22,7 @@ export default function Hero (){
     
 
     return(
-        <div data-aos="fade-down">
+        <div>
            
             
             <Swiper
