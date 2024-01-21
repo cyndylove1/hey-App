@@ -2435,11 +2435,12 @@ form .address:hover{
         width: 55%;
     }
     .img5{
-        width: 100%;
+        width: 110%;
     }
     
     .about-section{
-        margin-left: 5%;
+        width: 90%;
+        /* margin-right: 3%; */
         
     }
     /* about section ends here  */
