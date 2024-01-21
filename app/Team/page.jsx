@@ -10,7 +10,6 @@ import {FaFacebookF} from "react-icons/fa6";
 import {FaTwitter} from "react-icons/fa6";
 import {FaLinkedinIn} from "react-icons/fa6";
 import {FaInstagram} from "react-icons/fa6"
-import { PageWrapper } from '../page-wrapper';
 // import ScrollReveal from 'scrollreveal';
 
 
@@ -27,14 +26,14 @@ export default function Team () {
             
             <div className="team">
                 <div className="team-container">
-                <PageWrapper/>
-                    <h2>Our Team</h2>
+                
+                    <h2 data-aos="fade-up">Our Team</h2>
                 </div>
                 <div className="team-content">
-                <PageWrapper/>
+                
                     <div className="team-info">
                     {/* <PageWrapper/> */}
-                        <div className="team-text">
+                        <div className="team-text" data-aos="fade-right">
                             
                             <Image src={team1} className="img4"/>
                             <h4>Joseph Brown</h4>
@@ -48,7 +47,7 @@ export default function Team () {
                             </div>
 
                         </div>
-                        <div className="team-text">
+                        <div className="team-text" data-aos="fade-left">
                             <Image src={team2} className="img4"/>
                             <h4>Nancy White</h4>
                             <h5>marketing Head</h5>
@@ -62,7 +61,7 @@ export default function Team () {
                             
 
                         </div>
-                        <div className="team-text">
+                        <div className="team-text" data-aos="fade-up-right">
                             <Image src={team3} className="img4"/>
                             <h4>Earl Martinez</h4>
                             <h5>marketing Head</h5>
@@ -76,7 +75,7 @@ export default function Team () {
                             
 
                         </div>
-                        <div className="team-text">
+                        <div className="team-text" data-aos="fade-up">
                             <Image src={team4} className="img4"/>
                             <h4>Josephine Allard</h4>
                             <h5>marketing Head</h5>

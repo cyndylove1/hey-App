@@ -22,7 +22,7 @@ export default function Hero (){
     
 
     return(
-        <div>
+        <div data-aos="zoom-in">
            
             
             <Swiper

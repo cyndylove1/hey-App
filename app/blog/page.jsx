@@ -24,8 +24,7 @@ import '../styles.css'
            
             <div className="blog">
                 <div className="main-blog">
-                    <div className="main-container">
-                    <PageWrapper/>
+                    <div className="main-container" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
                         <div className="blog-container">
                             <h5>WHY CHOOSE US?</h5>
                             <h2>Enterprise Blockchain Services  to Build a Better Future.</h2>
@@ -65,7 +64,8 @@ import '../styles.css'
 
                     </div>
                         
-                        <div className="blog-img">
+                        <div className="blog-img" data-aos= "flip-left" data-aos-easing="ease-out-cubic"
+                                data-aos-duration="2000">
                             <Image src={blog} className="img3"/>
 
                         </div>

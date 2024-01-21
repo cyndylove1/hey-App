@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation'
 
 
  export default function Sign (){
-    // await new Promise(resolve => setTimeout(resolve, 3000))
+
 
     const [error, setError] = useState("")
     const router = useRouter()
@@ -47,26 +47,6 @@ import { useRouter } from 'next/navigation'
 
         try {
 
-            // const resUserExit = await fetch('/api/userExit',{
-            //     method: 'POST',
-            //     headers: {
-            //         "Content-Type": "application/json"
-            //     },
-            //     body: JSON.stringify({ email }),  
-               
-            // })
-            // const { user } = await resUserExit.json()
-
-            // if(user){
-            //     return({
-            //         success: false,
-            //         message: "User Already Exists",
-
-            //     });
-                
-
-
-            // }
 
            const res = await fetch('/api/users',{
                 method: 'POST',
@@ -116,31 +96,31 @@ import { useRouter } from 'next/navigation'
                 <div className="Sign-page">
                     <form action="" className="Sign" onSubmit={handleSubmit}>
                        
-                        <input type="text" placeholder='FirstName' className="sign-input" autoComplete='off' required/>
+                        <input type="text" placeholder='FirstName' className="sign-input" autoComplete='off' required data-aos="fade-right"/>
                         
-                        <input type="text"  placeholder='LastName' className="sign-input" autoComplete='off' required/> <br />
+                        <input type="text"  placeholder='LastName' className="sign-input" autoComplete='off' required  data-aos="fade-up"/> <br/>
                        
-                        <input type="text" placeholder='Email' className="sign-input" autoComplete='off' required/>
+                        <input type="text" placeholder='Email' className="sign-input" autoComplete='off' required data-aos="fade-left"/>
                         
-                        <input type="text" placeholder='Mobile' className="sign-input" autoComplete='off'  required/><br />
+                        <input type="text" placeholder='Mobile' className="sign-input" autoComplete='off'  required data-aos="fade-right"/><br />
 
                         
                         
-                        <select className="sign-input" placeholder='IdentificationType' type="Selection" autoComplete='off' required>
+                        <select className="sign-input" placeholder='IdentificationType' type="Selection" autoComplete='off' required data-aos="fade-up">
                             <option value="National ID">National ID</option>
                             <option value="Driver's Lisence">Driver's Lisence</option>
                         </select>
 
                         
-                        <input type="text" placeholder='IdentificationNumber' className="sign-input" autoComplete='off' required /> 
+                        <input type="text" placeholder='IdentificationNumber' className="sign-input" autoComplete='off' required data-aos="fade-left" /> 
                         
                         <input type="text" placeholder='Address' className="address"  autoComplete='off' required/>  <br/>
                         
-                        <input type="password" placeholder='Password' className="sign-input" autoComplete='off' required/>
+                        <input type="password" placeholder='Password' className="sign-input" autoComplete='off' required data-aos="fade-right"/>
                        
-                        <input type="password" placeholder='ConfirmPassword' className="sign-input"  autoComplete='off' required/> 
+                        <input type="password" placeholder='ConfirmPassword' className="sign-input"  autoComplete='off' required data-aos="fade-left"/> 
 
-                        <button  type='submit' className="register">Register</button>
+                        <button  type='submit' className="register" data-aos="flip-right">Register</button>
 
                         <p className='err'>{error && error}</p>
                         

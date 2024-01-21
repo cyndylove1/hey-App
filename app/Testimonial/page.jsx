@@ -16,9 +16,9 @@ export default  function Testimonial(){
    
      
     return(
-        <div>
+        <div data-aos="fade-up">
              
-             <div className="testimonial-title">
+             <div className="testimonial-title" data-aos="flip-left">
                     <h2>What Says Our Customers</h2>
                 </div>
             <Swiper
