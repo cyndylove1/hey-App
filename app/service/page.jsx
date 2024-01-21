@@ -22,7 +22,9 @@ export default function Services () {
 
                 </div>
                 <div className="services-text">
-                    <div className="services-content">
+                    <div className="services-content" data-aos= "zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0">
                         <div className="services-info" >     
                             <Image src={icon1} alt="" className="img2"/>
                             <h5>CURRENCY WALLET</h5>
