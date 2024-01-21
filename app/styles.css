@@ -1019,7 +1019,7 @@ form .address:hover{
     }
     .services{
         padding-top: 35%;
-        height: 1100px;
+        height: 1300px;
     }
     .services-content{
         flex-direction: column;
@@ -1420,7 +1420,7 @@ form .address:hover{
     /* services section begins here*/
     
     .services{
-        height: 1100px;
+        height: 1300px;
         padding-top: 30%;
     }
     .services-content{
@@ -1492,6 +1492,7 @@ form .address:hover{
 
     .testimonial-info{
         height: 370px;
+        /* width: 90%; */
         
     }
     .testimonial-title h2{
@@ -1506,6 +1507,7 @@ form .address:hover{
     .cta-text {
         width: 100%;
     }
+   
     .cta-section{
         flex-direction: column;
         
@@ -1782,7 +1784,7 @@ form .address:hover{
     /* services section begins here */
     
     .services{
-        height: 1100px;
+        height: 1400px;
         padding-top: 25%;
     }
     .services-content{
@@ -2152,7 +2154,7 @@ form .address:hover{
     /* .services section begins here */  
     
     .services{
-        height: 1100px;
+        height: 1400px;
         padding-top: 15%;
     }
     .services-content{

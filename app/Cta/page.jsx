@@ -6,7 +6,6 @@ import cta from "@/public/images/laptop.png"
 
 
 
-
 export default function Cta (){
   
     return(
@@ -15,13 +14,13 @@ export default function Cta (){
                 <div className="cta-container">
                     <div className="cta-section">
                         <div className="cta-text">
-                            <h4>You can securely store your cryptocurrency in Heywallet <br /> Crypto Wallet</h4>
+                            <h4 data-aos="fade-right" >You can securely store your cryptocurrency in Heywallet <br /> Crypto Wallet</h4>
                         </div>
                         <div className="cta-image"> 
-                            <Image src={cta} className="cta-img"/>
+                            <Image src={cta} className="cta-img" data-aos="fade-down"/>
                         </div>
                         <div className="cta-btn">
-                            <button className="cta-btn2">Start use now</button>
+                            <button className="cta-btn2" data-aos="fade-left">Start use now</button>
                         </div>
                         
 
