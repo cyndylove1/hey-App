@@ -11,7 +11,6 @@ export default function Cta (){
   
     return(
         <div>
-             <PageWrapper/>
             <div className="cta">
                 <div className="cta-container">
                     <div className="cta-section">
