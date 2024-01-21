@@ -64,11 +64,11 @@ import '../styles.css'
 
                     </div>
                         
-                        {/* <div className="blog-img" >
+                        <div className="blog-img" >
                             <Image src={blog} className="img3" data-aos= "flip-left" data-aos-easing="ease-out-cubic"
                                 data-aos-duration="2000"/>
 
-                        </div> */}
+                        </div>
 
                     </div>
                    
