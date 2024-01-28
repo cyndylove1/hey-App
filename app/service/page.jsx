@@ -17,8 +17,8 @@ export default function Services () {
             <div className="services">
                 
                 <div className="services-container">
-                    <h2>Our Services</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, quam!</p>
+                    <h2 className=''data-aos="fade-up" data-aos-duration="3000">Our Services</h2>
+                    <p className=''data-aos="fade-up" data-aos-duration="3000">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, quam!</p>
 
                 </div>
                 <div className="services-text">

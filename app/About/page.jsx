@@ -37,9 +37,9 @@ import { motion } from 'framer-motion';
             <div className="about">
                     
                     
-                <div className="about-us">
-                    <h2>HeyWallet Features</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Esse, autem.</p>
+                <div className="about-us"z>
+                    <h2 className="" data-aos="fade-up" data-aos-duration="3000">HeyWallet Features</h2>
+                    <p className='' data-aos="fade-up" data-aos-duration="3000">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Esse, autem.</p>
                 </div>
                 <div className="about-container">
 

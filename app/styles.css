@@ -2043,8 +2043,8 @@ form .address:hover{
     .navbar ul li{
         display: block;
         /* margin-bottom: 30px; */
-        font-size: 20px;
-        padding: 30px 0px;
+        font-size: 15px;
+        padding: 20px 0px;
         transition: 0.4s;
        
 
@@ -2059,7 +2059,7 @@ form .address:hover{
     }
     .btn{
         color: #000;
-        font-size: 20px;
+        font-size: 15px;
         background-color: var(--white-color);
         padding: 5px 100px;
     }

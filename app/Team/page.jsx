@@ -27,7 +27,7 @@ export default function Team () {
             <div className="team">
                 <div className="team-container">
                 
-                    <h2>Our Team</h2>
+                    <h2 className=''data-aos="fade-up" data-aos-duration="3000">Our Team</h2>
                 </div>
                 <div className="team-content">
                 
