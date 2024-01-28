@@ -6,13 +6,14 @@ import Link from 'next/link';
  import { useState } from 'react'
  import { FaBarsStaggered } from "react-icons/fa6"; 
  import { LiaTimesSolid } from "react-icons/lia"
- import {signOut, useSession} from "next-auth/react"
+ import {signIn , signOut, useSession} from "next-auth/react"
 
  
  
 
 export default function Navbar() {
-    const {session} = useSession()
+    const {session , loading} = useSession()
+    console.log ({session, loading})
     
    
     const [menu, setMenu] = useState("hidden")
