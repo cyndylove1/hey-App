@@ -112,11 +112,8 @@ export default function Navbar() {
                 </ul>
                 <div className="mobile" onClick={handleClick}>
                         {bar} 
-                        {/* {color} */}
-
-                        {/* <div className="bar"><FaBarsStaggered/></div> */}
-                        {/* <div className="close"><LiaTimesSolid/></div> */}
-                    </div>
+                        
+                </div>
                 
             
 

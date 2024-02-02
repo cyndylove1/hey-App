@@ -28,8 +28,7 @@ export default function Home() {
   }, [])
   return (
     <main>
-      {/* <Navbar/> */}
-      {/* <Mobile/> */}
+      
       
       <Hero/>
       <About/>
@@ -38,8 +37,7 @@ export default function Home() {
       <Team/>
       <Testimonial/>
       <Cta/>
-      {/* <Dashboard/> */}
-      {/* <Footer/> */}
+      
        
     </main>
   )
