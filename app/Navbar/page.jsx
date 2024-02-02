@@ -6,14 +6,13 @@ import Link from 'next/link';
  import { useState } from 'react'
  import { FaBarsStaggered } from "react-icons/fa6"; 
  import { LiaTimesSolid } from "react-icons/lia"
- import {signIn , signOut, useSession} from "next-auth/react"
+//  import {signIn , signOut, useSession} from "next-auth/react"
 
  
  
 
 export default function Navbar() {
-    const {session , loading} = useSession()
-    console.log ({session, loading})
+    
     
    
     const [menu, setMenu] = useState("hidden")
@@ -43,19 +42,6 @@ export default function Navbar() {
 
 
 
-    // const  [color, setColor] = useState(false)
-    //  const changeColor = () =>{
-    //     if(window.scrollY >= 90){
-    //         setColor(true)
-    //    }else{
-    //         setColor(false)
-    //     }
-
-    //  }
-    // window.addEventListener('scroll', changeColor)
-        
-    
-
     
 
     return(
@@ -65,10 +51,7 @@ export default function Navbar() {
                  <h2><span className='fa'><FaGoogleWallet/></span>HEYWALLET</h2>
 
             </div>
-             {/* <div className="logo3">
-                 <h2><span className='fa2'><FaGoogleWallet/></span>HEYWALLET</h2>
-
-            </div> */}
+             
 
 
             <nav className="navbar">
@@ -84,30 +67,14 @@ export default function Navbar() {
                         
                    
 
-                     {!session ? (
-                        <>
-                        
+                     
                                                                  
                     <Link href="/form">
                         <button className='btn'>Login</button>
                     </Link>
-                     </>
-                     ):(
-                        <>
-                        {session.user.email}
-                        <li>
-                            <button onClick={()=>{
-                                signOut()
-                            }} className='btn'>logout</button>
-
-                        </li>
-                        </>
-                     )}  
-
-
                      
-                  
-                
+                               
+
                     
                 </ul>
                 <div className="mobile" onClick={handleClick}>
