@@ -53,7 +53,7 @@ export default function Hero (){
                                         <div className='hero-section'>
                                         <div className='hero-content'>
                                             <div className='hero-text'>
-                                                <h2>CRYPTO <span>CURRENCY</span></h2>
+                                                <h2>CRYPTO <br/> <span>CURRENCY</span></h2>
                                                 <p>xplicabo esse amet tempora quibusdam laudantium, laborum, eaque magnam  fugiat hic? Esse dicta aliquid error repudiandae  earum suscipit fugiat molestias, veniam, vel architecto  veritatis delectus repellat modi impedit sequi.</p>
                                                 <button className='read'>Read More</button>
                                                     
@@ -85,7 +85,7 @@ export default function Hero (){
                                         <div className='hero-section'>
                                         <div className='hero-content'>
                                             <div className='hero-text'>
-                                                <h2>CRYPTO <span> CURRENCY</span></h2>
+                                                <h2>CRYPTO <br/> <span> CURRENCY</span></h2>
                                                 <p>xplicabo esse amet tempora quibusdam laudantium, laborum,  eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.</p>
                                                 <button className='read'>Read More</button>
                                                     
@@ -120,7 +120,7 @@ export default function Hero (){
                                     <div className='hero-section'>
                                         <div className='hero-content'>
                                             <div className='hero-text'>
-                                                <h2>CRYPTO <span>CURRENCY</span></h2>
+                                                <h2>CRYPTO  <br/> <span>CURRENCY</span></h2>
                                                 <p>xplicabo esse amet tempora quibusdam laudantium, laborum, eaque magnam fugiat hic? Esse dicta aliquid error repudiandae  earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.</p>
                                                 <button className='read'>Read More</button>
                                                     
