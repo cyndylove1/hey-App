@@ -6,6 +6,16 @@ body{
     font-family: 'Roboto', sans-serif;
     
 }
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background: #EBEBEB;
+}
+::-webkit-scrollbar-thumb{
+    background-color:rgba(107,6,156,1) ;
+    border-radius: 4px;
+}
 
 /* navbar section begins here */
 
@@ -1366,7 +1376,7 @@ form .address:hover{
 
     }
     .hero-text{
-        width: 95%;
+        /* width: 95%; */
     }
     .hero-text h2{
         margin-top: 5%;
