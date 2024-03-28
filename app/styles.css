@@ -51,7 +51,7 @@ header{
 }
 
 .logo{
-    margin-right: 19% ;
+    margin-right: 24% ;
 }
 
 .logo h2{
@@ -189,13 +189,14 @@ header{
 .hero-content{
     display: flex;
     justify-content: space-between;
-    padding: 0 5%;
+    padding: 0 3%;
     align-items: center;
     padding-top: 9%;
 }
 .hero-text{
     text-align: justify;
     width: 40%;
+    /* margin-right: 35%; */
     color: var(--white-color);
    
 }
@@ -231,7 +232,7 @@ header{
 }
 
 .img{
-    width: 120%;
+    width: 100%;
     height: 500px;
     position: absolute;
     
@@ -250,7 +251,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 2% 5%;
+    margin: 2% 2.5%;
 }
 .about-section{
     display: flex;
@@ -365,7 +366,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 6%;
+    padding: 0 3.5%;
     
 }
 .img3{
@@ -445,6 +446,13 @@ header{
     background: linear-gradient(90deg, rgba(107,6,156,1) 0%, rgba(11,2,17,1) 65%)
     
 }
+.team-info{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin: 0 3%;
+
+}
 
 .team-text{
     background-color: rgb(231, 190, 249);
@@ -455,6 +463,7 @@ header{
     border-radius: 5px;
     
 }
+
 .team-text h4{
     padding: 10px;
     font-weight: 700;
@@ -479,13 +488,7 @@ header{
 .socials h2:hover{
     transform: translateY(-10px);
 }
-.team-info{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 5px;
-    margin: 0 5%;
 
-}
 .team-container h2{
     text-align: center;
     padding: 5% 0;
@@ -574,7 +577,7 @@ header{
 .cta-text h4{
     color: var(--white-color);
     font-weight: 500;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 .cta-btn2{
     padding: 10px 20px;
@@ -606,7 +609,7 @@ header{
     width: 27%;
     padding-top: 18px;
     margin-right: 50px;
-    margin-left: 4%;
+    margin-left: 3%;
     color: #000;
 }
 .logo2 h2{
@@ -1091,8 +1094,8 @@ form .address:hover{
         
     }
     .blog-img{
-        width: 240%;
-        margin-right:15%;
+        width: 230%;
+        margin-right:17%;
     }
     
     /* blog section ends here */
@@ -1101,7 +1104,7 @@ form .address:hover{
 
     /* team section begin here */
     .team-info{
-        margin-left: 5%;
+        margin: 0 5%;
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
     } 
@@ -1356,6 +1359,9 @@ form .address:hover{
         background-color: black;
         color: var(--white-color);
     }
+    .logo{
+        margin-right: 19%;
+    }
      
      
      /* navbar section ends here */
@@ -1376,7 +1382,7 @@ form .address:hover{
 
     }
     .hero-text{
-        /* width: 95%; */
+        width: 95%;
     }
     .hero-text h2{
         margin-top: 5%;
@@ -1389,6 +1395,7 @@ form .address:hover{
     }
     .img{
         width: 90%;
+        
     }
     /* hero section ends here */
 
@@ -1405,7 +1412,7 @@ form .address:hover{
     }
     .about-img{
         width: 85%;
-        margin-left: 20%;
+        margin-left: 28%;
     }
     .icon{
         height: 33px;
@@ -1428,7 +1435,7 @@ form .address:hover{
     .about-section{
         flex-direction: column;
         width: 95%;
-        margin-right: 64%;
+        margin-right: 57%;
         
     }
     .about-text{
@@ -1436,7 +1443,7 @@ form .address:hover{
     }
     .about-section2{
         width: 95%;
-        margin-right: 36%;
+        margin-right: 30%;
     }
     .about-img{
         margin-right: 25%;
@@ -1474,14 +1481,14 @@ form .address:hover{
         
     }
     .blog-container{
-        margin-right: 16%;
+        margin-right: 10%;
     }
     .blog-text li span{
         padding: 20px 20px;
         
     }
     .blog-img{
-        width: 250%;
+        width: 235%;
         margin-right:30%;
     }
     .blog-container h5{
@@ -1505,7 +1512,7 @@ form .address:hover{
     
     /* team section begins here */
     .team-info{
-        margin-left: 5%;
+        margin:0 5%;
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
     } 
@@ -1562,7 +1569,7 @@ form .address:hover{
         flex-direction: column;
     }
     .logo2{
-        margin-left: 5px;
+        margin-left: 7px;
     }
     .footer-content{
         margin-left: 15px;
@@ -1758,7 +1765,7 @@ form .address:hover{
     }
     .img{
         width: 90%;
-        margin-left: 15%;
+        margin-left: 20%;
     }
     /* hero section ends here */
 
@@ -1861,7 +1868,7 @@ form .address:hover{
         margin-right: 5%;
     }
     .blog-img{
-        width: 210%;
+        width: 150%;
         margin-right:16%;
     }
     .blog-container h5{
@@ -1894,8 +1901,7 @@ form .address:hover{
 
     }
     .team-info{
-        padding: 0 5%; 
-        /* width: 80%; */
+        margin: 0 5%; 
         grid-template-columns: repeat(1, 1fr); 
         gap: 10px;
     }
@@ -2060,7 +2066,7 @@ form .address:hover{
 
  }
 
- @media screen and (min-width: 601px) and ( max-width: 1000px){
+ @media screen and (min-width: 601px) and ( max-width: 899px){
 
     /* Navbar section begins here */
     .mobile{
@@ -2186,7 +2192,7 @@ form .address:hover{
     .about-section{
         flex-direction: column;
         width: 95%;
-        margin-right: 60%;
+        margin-right: 58%;
         
     }.icon{
         height: 35px;
@@ -2199,7 +2205,7 @@ form .address:hover{
     }
     .about-section2{
         width: 95%;
-        margin-right: 34%;
+        margin-right: 32%;
     }
     .about-img{
         margin-right: 20%;
@@ -2239,7 +2245,7 @@ form .address:hover{
         
     }
     .blog-container{
-        margin-right: 15%;
+        margin-right: 12%;
     }
     .blog-container h5{
         padding-top: 30px;
@@ -2259,8 +2265,8 @@ form .address:hover{
         
     }
     .blog-img{
-        width: 200%;
-        margin-right: 15%;
+        width: 150%;
+        margin-right: 5%;
         
         
     }
@@ -2275,7 +2281,400 @@ form .address:hover{
 
     }
     .team-info{
-        margin-left: 6%; 
+        margin: 0 6%; 
+         grid-template-columns: repeat(2, 1fr); 
+         gap: 10px;
+    }
+    .img4{
+        height: 90px;
+        width: 32%;
+        border-radius: 50%;
+        border: 3px solid var(--white-color);
+    }
+    /* team section ends here */
+
+
+    /* testimonial section begins here */
+    .testimonial-title h2{
+        padding-top: 20%;
+    }
+    /* testimonial section ends here */
+    
+
+
+    /* services section */
+    .img2{
+        height: 70px;
+        width: 10%;
+        padding-bottom: 15px;
+        border-radius: 4px;
+    }
+    /* services section ends here */
+    .client-img{
+        margin-top: -10%;
+    }
+    .testimonial-info{
+        height: 380px;
+    } 
+
+    /* .testimonial-text{
+        padding-top: 45%;
+        
+    }
+    
+
+    /* cta section begins here */
+    .cta-btn{
+        width: 50%;
+        margin-left: 7%;
+       
+        
+    }
+    .cta-text{
+        width: 80%;
+    }
+    .cta-img{
+        width: 120%;
+    }
+    /* cta section ends here */
+
+    
+
+    /* footer section  begins here*/
+    
+    .footer-section{
+        height: 820px;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .logo2{
+        width: 80%;
+        margin-left: 15px;
+    }
+    
+    .footer-content{
+        margin-left: 15px;
+    }
+    
+    .quick-links{
+        margin-left: 15px;
+        
+    }
+    .location{
+        margin-left: 15px;
+    
+    }
+    .social-footer h5:hover{
+        transform: none;
+    }
+    /* footer section ends here */
+
+
+
+    /* form section begins here */
+    
+    .form{
+        
+        width: 75%;
+        margin-left: 10%;
+        margin-top: 25%;
+        padding: 0 3%;
+    }
+    
+    .form input{
+        width: 100%;
+        
+    }
+    .form-btn{
+        width: 100%;
+        
+        
+    }
+    .form-page{
+        width: 100%;
+        height: 150vh;
+    }
+    .form-title h4{
+        font-size: 35px;
+        padding: 20px 0;
+    
+    }
+    /* form section ends here */
+
+
+    /* sign up section begins here */
+    .Sign-up{
+        height: 220vh;
+    }
+
+    .Sign{
+        margin: 0;
+        flex-direction: column;
+    }
+    .title{
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .member{
+        width: 130%;
+      
+
+    }
+    
+    .member h6{
+        padding: 20px 0;
+        font-size: 20px;
+        
+    }
+    form .sign-input {
+        margin-left: 5%;
+        width: 90%;
+        margin-bottom: 30px;
+
+    }
+    
+     form .address{
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 0;
+    }
+    
+    .register{
+        margin-top: 10%;
+        margin-left: 80%;
+    }
+    .Sign-title{
+        width: 120%;
+    }
+    .Sign-title h4{
+        padding: 38px 40px;
+        font-size: 20px;
+    }
+    /* sign up section ends here */
+    
+    
+
+ }
+ @media screen and (min-width: 900px) and ( max-width: 950px){
+
+    /* Navbar section begins here */
+    .mobile{
+        display: block;
+        cursor: pointer;
+        margin-right: 30px;
+        padding-top: -20px;
+     }
+     
+     
+     .logo h2 {
+        margin-right: 310px;
+        padding-top: -10px;
+        
+     }
+     .navbar ul{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 70px;
+        right:-300px;
+        width: 300px;
+        height: 100vh;
+        background-color: rgb(207, 105, 248);
+        padding: 40px 20px;
+        flex-direction: column;   
+        
+    }
+    .loader{
+        padding-top: 10%;
+    }
+    .logo{
+        margin-right: 29%;
+    }
+    
+    
+    .navbar ul li{
+        display: block;
+        font-size: 15px;
+        padding: 20px 0px;
+        transition: 0.4s;
+       
+
+    }
+    .navbar ul li:hover{
+        color: #000;
+
+    }
+       
+    .navbar ul.active{
+        right: 0px;
+    }
+    .btn{
+        color: #000;
+        font-size: 15px;
+        background-color: var(--white-color);
+        padding: 5px 100px;
+    }
+    .btn:hover{
+        background-color: black;
+        color: var(--white-color);
+    }
+     
+    
+    /* Navbar section begins here */
+
+
+    /* hero section begins here */
+    
+    .main{
+        height: 1100px;
+
+    }
+    .hero-content{
+        flex-direction: column;
+    }
+    .hero-section{
+        margin-right: 10%;
+    }
+    .hero-text{
+        width: 100%;
+    }
+    .image{
+        padding-top: 10%;
+        width: 80%;
+        margin-left: 30%;
+    }
+    .img{
+        width: 80%;
+        /* margin-right: 20%; */
+    }
+    /* hero section ends here */
+
+
+    /* about section begins here*/
+    .about{
+        padding-top: 15%;
+    }
+    .about-container{
+        flex-direction: column;
+    }
+    .content h6{
+        text-align: justify;
+    }
+    .about-img{
+        /* width: 50%; */
+        margin-left: 17%;
+    }
+    .img5{
+        width: 50%;
+    }
+    .about-text{
+        padding-top: 7%;
+        width: 100%;
+    }
+    .about-info{
+        width: 100%;
+    }
+    .about-content{
+        margin-right: 32%;
+        width: 100%;
+    }
+
+    .about-section{
+        flex-direction: column;
+        width: 95%;
+        margin-right: 55%;
+        
+    }.icon{
+        height: 35px;
+        
+    
+    }
+
+    .about-text{
+        margin-right: 10px;
+    }
+    .about-section2{
+        width: 95%;
+        margin-right: 29%;
+    }
+    .about-img{
+        margin-right: 20%;
+        width: 60%;
+
+    }
+    .img5{
+        width: 90%;
+    }
+    /* about section ends here */
+    
+
+    /* .services section begins here */  
+    
+    .services{
+        height: 1400px;
+        padding-top: 15%;
+    }
+    .services-content{
+        flex-direction: column;
+        margin-right: 5%;
+        
+    
+    }
+    /* services section ends here */
+
+
+
+    /* blog section  here begins*/
+    .blog{
+        padding-top: 15%;
+    }
+    .main-container{
+        flex-direction: column;
+        width: 70%;
+        margin-right: 20%;
+        
+    }
+    .blog-container{
+        margin-right: 12%;
+    }
+    .blog-container h5{
+        padding-top: 30px;
+        width: 130%;
+    }
+    .blog-container h2{
+        width: 130%;
+    }
+    .blog-container p{
+        width: 130%;
+    }
+    .blog-content{
+        width: 170%;
+    }
+    .blog-text li span{
+        padding: 20px 50px;
+        
+    }
+    .blog-img{
+        width: 150%;
+        margin-right: 5%;
+        
+        
+    }
+    /* blog section ends here */
+    
+
+    /* team section begins here */
+    .team{
+        height: 1200px;
+        padding-top: 15%;
+        padding-bottom: 30%;
+
+    }
+    .team-info{
+        margin: 0 6%; 
          grid-template-columns: repeat(2, 1fr); 
          gap: 10px;
     }
@@ -2452,12 +2851,12 @@ form .address:hover{
 
  }
 
- @media screen and (min-width: 1001px) and ( max-width: 1200px){
+ @media screen and (min-width: 951px) and ( max-width: 1050px){
 
     /* Navbar section begins here */
     .navbar {
         padding-top: 26px;
-        /* margin-right: 10%; */
+
     }
     .loader{
         padding-top: 10%;
@@ -2468,12 +2867,13 @@ form .address:hover{
     .navbar ul{
         padding: 2px 0;
         
+        
     }
     .navbar ul li{
         margin: 0 10px;
     }
     .logo{
-        margin-right: 25%;
+        margin-right: 17%;
     }
 
     /* Navbar section ends here */
@@ -2482,17 +2882,31 @@ form .address:hover{
     
     /* hero section begins here  */
     .logo h2{
-        margin-left: 40px;
+        margin-right: 40px;
         
     }
     .image{
-        width: 40%;
+        width: 90%;
+       
+        
     }
     .img{
-        width: 85%;
+        width: 70%;
+        margin-left: 40%;
+        
     }
+    /* .hero-section{
+        margin-right: 45%;
+    }
+    .hero-text{
+        width: 150%;
+    } */
     .hero-section{
         padding-top: 5%;
+    }
+    .hero-text{
+        /* margin-right: 30%; */
+        width: 60%;
     }
     /* hero section ends here */
 
@@ -2504,7 +2918,7 @@ form .address:hover{
     }
     .about-container{
         width: 96%;
-        margin: 0 3%;
+        margin: 0 2%;
     }
     .about-img{
         width: 55%;
@@ -2528,7 +2942,7 @@ form .address:hover{
         height: 600px;
     }
     .main-container{
-        padding: 0 5%;
+        padding: 0 3%;
     }
     
     .blog-container h5{
@@ -2538,7 +2952,7 @@ form .address:hover{
         width: 150%;
     }
     .blog-img{
-        width: 150%;
+        width: 200%;
         margin-right: 12%;
     }
     .img3{
@@ -2554,13 +2968,14 @@ form .address:hover{
         font-size: 20px;
     }
     .img4{
-        width: 46%;
+        width: 45%;
+        height: 100px;
     }
     .team-text{
         width: 100%;
     }
     .team-info{
-        margin: 0 5%;
+        margin: 0 4%;
         gap: 10px;
 
     }
@@ -2601,7 +3016,7 @@ form .address:hover{
         width: 30%;
         padding-top: 18px;
         margin-right: 50px;
-        margin-left: 5%;
+        margin-left: 3%;
         color: #000;
         
     }
